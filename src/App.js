@@ -4,7 +4,7 @@ import Navbar from "./Components/Navbar";
 import HomePage from "./pages/HomePage";
 function App() {
   return (
-    <div className="bg-hsl(146, 64%, 61%)">
+    <div className="bg-green-500 h-screen">
       <div class="w-3/4">
         <Navbar />
         <Routes>
