@@ -5,7 +5,7 @@ import HomePage from "./pages/HomePage";
 import ProjectPage from "./pages/ProjectPage";
 function App() {
   return (
-    <div className="bg-green-500 h-screen text-white">
+    <div className="bg-green-600 h-screen text-white">
       <div className="w-3/4 m-auto">
         <Navbar />
         <Routes>
