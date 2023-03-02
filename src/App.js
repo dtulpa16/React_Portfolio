@@ -7,7 +7,7 @@ import BGImage from "./assets/Background-img.png"
 function App() {
   return (
     <div className={`bg-[url(./assets/Background-img.png)] bg-cover bg-center h-screen text-white overflow-auto`}>
-      <div className="w-3/4 m-auto">
+      <div className="w-5/6 m-auto">
         <Navbar />
         <Routes>
           <Route path="/" element={<HomePage />} />
