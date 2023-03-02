@@ -6,7 +6,7 @@ import ProjectPage from "./pages/ProjectPage";
 function App() {
   return (
     <div className="bg-green-500 h-screen text-white">
-      <div className="w-3/5 m-auto">
+      <div className="w-3/4 m-auto">
         <Navbar />
         <Routes>
           <Route path="/" element={<HomePage />} />
