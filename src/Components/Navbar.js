@@ -8,7 +8,7 @@ export default function Navbar() {
     <ul className="list-none flex gap-3 items-center justify-between align-middle h-20 pl-20 pr-20">
       <div className="align-middle">
         <li onClick={()=>navigate("/")}>
-          <img className="rounded-lg" width="42" src={DIcon} />
+          <img className="rounded-lg cursor-pointer" width="42" src={DIcon} />
         </li>
       </div>
       <div className="list-none flex gap-6 align-middle justify-end ">
