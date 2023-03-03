@@ -21,9 +21,9 @@ import BootstrapIcon from "../assets/bootstrap.svg"
 
 export default function ProjectPage() {
   return (
-    <div>
+    <div class="w-[97%] m-auto ">
       <h1 class="text-center mt-4 text-4xl font-bold">Projects</h1>
-      <div class="w-[97%] m-auto flex flex-wrap justify-center text-center items-center gap-6 mt-14">
+      <div class="flex flex-wrap justify-center text-center items-center gap-6 mt-14">
         <div class="h-250 min-h-[266px] transition-all duration-10 cursor-default  p-3 text-white w-72 shadow-md shadow-slate-800 drop-shadow-sm  rounded-sm gap-4 bg-[#08386b] flex flex-col justify-center items-center mt-10 border-[1.5px] border-black">
           <img src={Jaunt} width="120" class="rounded-full -mt-16 border-[1.5px] border-black shadow-sm shadow-slate-800 drop-shadow-sm " />
           <h1 class=" text-2xl font-bold mt-2">Jaunt</h1>

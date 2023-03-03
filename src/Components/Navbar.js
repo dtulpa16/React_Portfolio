@@ -12,10 +12,10 @@ export default function Navbar() {
         </li>
       </div>
       <div className="list-none flex gap-6 align-middle justify-end ">
-        <li onClick={()=>navigate("/my-projects")} className=" hover:text-blue-900 font-bold self-center text-xl cursor-pointer transition-all  duration-150">
+        <li onClick={()=>navigate("/my-projects")} className=" hover:text-[#08386b] font-bold self-center text-xl cursor-pointer transition-all  duration-150">
           Projects
         </li>
-        <li onClick={()=>navigate("/about")} className=" hover:text-blue-900 font-bold self-center text-xl cursor-pointer transition-all duration-150">
+        <li onClick={()=>navigate("/about")} className=" hover:text-[#08386b] font-bold self-center text-xl cursor-pointer transition-all duration-150">
           About
         </li>
       </div>
