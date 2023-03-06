@@ -22,9 +22,11 @@ import BootstrapIcon from "../assets/bootstrap.svg"
 export default function ProjectPage() {
   return (
     <div class="w-[97%] m-auto ">
+    <title>Projects</title>
       <h1 class="text-center mt-4 text-4xl font-bold">Projects</h1>
       <div class="flex flex-wrap justify-center text-center items-center gap-6 mt-14">
-        <div class="h-250 min-h-[266px] transition-all duration-10 cursor-default  p-3 text-white w-72 shadow-md shadow-slate-800 drop-shadow-sm  rounded-sm gap-4 bg-[#08386b] flex flex-col justify-center items-center mt-10 border-[1.5px] border-black">
+      <a href="http://ec2-34-204-82-92.compute-1.amazonaws.com">
+        <div class=" cursor-pointer h-250 min-h-[266px] transition-all duration-10 p-3 text-white w-72 shadow-md shadow-slate-800 drop-shadow-sm  rounded-sm gap-4 bg-[#08386b] flex flex-col justify-center items-center mt-10 border-[1.5px] border-black">
           <img alt="" src={Jaunt} width="120" class="rounded-full -mt-16 border-[1.5px] border-black shadow-sm shadow-slate-800 drop-shadow-sm " />
           <h1 class=" text-2xl font-bold mt-2">Jaunt</h1>
           <h1 class="text-sm font-semibold min-h-[100px]">
@@ -44,6 +46,7 @@ export default function ProjectPage() {
             <img alt="" src={BootstrapIcon} width="42" height="42" class="border-[1px] rounded-lg p-[3px] border-black transition-all duration-100 hover:scale-105 cursor-pointer bg-white"/>
           </div>
         </div>
+      </a>
         <div class="h-250 min-h-[266px] transition-all duration-10 cursor-default  p-3 text-white w-72 shadow-md shadow-slate-800 drop-shadow-sm rounded-sm gap-4 bg-[#08386b] flex flex-col justify-center items-center mt-10 border-[1.5px] border-black">
           <img alt="" src={Flex} width="120" class="rounded-full -mt-16 border-[1px] border-black-800/900  shadow-sm shadow-slate-300 drop-shadow-sm" />
           <h1 class="text-2xl font-bold mt-2">Flex Bot</h1>

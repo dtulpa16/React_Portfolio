@@ -13,6 +13,7 @@ import PythonIcon from "../assets/PythonIcon.jpg";
 export default function AboutPage() {
   return (
     <div class="flex flex-col items-center justify-center align-middle">
+    <title>About</title>
       <h1 class="text-center mt-4 text-4xl font-bold ">About</h1>
       <div class="flex flex-row gap-10 flex-wrap w-3/4 m-auto mt-14 justify-center content-center">
         <div class="flex flex-col flex-wrap gap-8 bg-[#08386b] text-white align-middle justify-center items-center pt-12 pb-10 p-4 rounded-md w-[460px] min-w-[350px] max-w-[460px]">
