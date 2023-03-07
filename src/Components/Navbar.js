@@ -26,19 +26,19 @@ export default function Navbar() {
             onClick={() => navigate("/my-projects")}
             className=" hover:text-[#08386b] font-bold self-center text-xl cursor-pointer transition-all  duration-150"
           >
-            Projects
+            <h1>Projects</h1>
           </li>
           <li
             onClick={() => navigate("/about")}
             className=" hover:text-[#08386b] font-bold self-center text-xl cursor-pointer transition-all duration-150"
           >
-            About
+            <h1>About</h1>
           </li>
           <li
             onClick={handleShow}
             className=" hover:text-[#08386b] font-bold self-center text-xl cursor-pointer transition-all duration-150"
           >
-            Contact
+            <h1>Contact</h1>
           </li>
         </div>
       </ul>

@@ -29,7 +29,7 @@ export default function ProjectPage() {
         <div class=" cursor-pointer h-250 min-h-[266px] transition-all duration-10 p-3 text-white w-72 shadow-md shadow-slate-800 drop-shadow-sm  rounded-sm gap-4 bg-[#08386b] flex flex-col justify-center items-center mt-10 border-[1.5px] border-black">
           <img alt="" src={Jaunt} width="120" class="rounded-full -mt-16 border-[1.5px] border-black shadow-sm shadow-slate-800 drop-shadow-sm " />
           <h1 class=" text-2xl font-bold mt-2">Jaunt</h1>
-          <h1 class="text-sm font-semibold min-h-[100px]">
+          <h1 class="text-sm min-h-[100px]">
             Fitness application for clients and trainers that generates custom
             workout and diet plans based on physical characteristics and fitness
             goals.
@@ -50,7 +50,7 @@ export default function ProjectPage() {
         <div class="h-250 min-h-[266px] transition-all duration-10 cursor-default  p-3 text-white w-72 shadow-md shadow-slate-800 drop-shadow-sm rounded-sm gap-4 bg-[#08386b] flex flex-col justify-center items-center mt-10 border-[1.5px] border-black">
           <img alt="" src={Flex} width="120" class="rounded-full -mt-16 border-[1px] border-black-800/900  shadow-sm shadow-slate-300 drop-shadow-sm" />
           <h1 class="text-2xl font-bold mt-2">Flex Bot</h1>
-          <h1 class="text-sm font-semibold min-h-[100px]">
+          <h1 class="text-sm min-h-[100px]">
             An efficient tool for instructors to manage student meetings and
             track progress using Slack and Notion Database.
           </h1>
@@ -68,7 +68,7 @@ export default function ProjectPage() {
         <div class="h-250 min-h-[266px] transition-all duration-10 cursor-default  p-3 text-white w-72 rounded-sm gap-4 shadow-md shadow-slate-800 drop-shadow-sm  bg-[#08386b] flex flex-col justify-center items-center mt-10 border-[1.5px] border-black">
           <img alt="" src={QQ} width="120" class="rounded-full -mt-16 border-[1px] border-black-800/900  shadow-sm shadow-slate-300 drop-shadow-sm" />
           <h1 class="text-2xl font-bold mt-2">Question Queue Bot</h1>
-          <h1 class="text-sm font-semibold min-h-[100px]">
+          <h1 class="text-sm min-h-[100px]">
             A Slack bot designed to streamline the process of students seeking
             help from the Instructor Team.
           </h1>
@@ -87,7 +87,7 @@ export default function ProjectPage() {
           <img alt="" src={Task} width="120" class="rounded-full -mt-16 border-[1px] border-black-800/900  shadow-sm shadow-slate-300 drop-shadow-sm" />
           <h1 class="text-2xl font-bold mt-2">Task Manager</h1>
           
-          <h1 class="text-sm font-semibold min-h-[100px]">
+          <h1 class="text-sm min-h-[100px]">
             A Slack bot that streamlines task management. The bot
             integrates with Notion API to create and update tasks automatically,
             saving time and effort.

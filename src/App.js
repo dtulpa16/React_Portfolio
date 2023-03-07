@@ -9,7 +9,7 @@ function App() {
   return (
     <div>
       <div
-        className={`main bg-[url(./assets/Background-img.png)] bg-cover bg-center h-screen text-white overflow-auto`}
+        className={`main bg-[url(./assets/Background-img.png)] bg-cover bg-center h-screen text-white overflow-auto font-m`}
       >
         <div className="w-5/6 m-auto">
           <Navbar />

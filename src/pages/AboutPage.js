@@ -28,10 +28,10 @@ export default function AboutPage() {
           <h1 class="text-2xl font-semibold">Facts</h1>
           <h1 class="text-md">
             Wisconsin born software developer currently based in Loveland,
-            Colorado. I work as a Full Stack Software Developer & Instructor.
+            Colorado. I work as a Full Stack Software Developer and Instructor.
           </h1>
           <h1 class="text-md">
-            I'm passionate about anything & everything outdoors, fitness, and
+            I'm passionate about anything and everything outdoors, fitness, and
             self-improvement.
           </h1>
           <h1 class="text-2xl font-semibold">Tools</h1>
