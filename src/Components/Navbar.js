@@ -18,7 +18,7 @@ export default function Navbar() {
       <ul className="list-none flex gap-3 items-center justify-between align-middle h-20 w-3/4 mx-auto flex-row flex-wrap min-w-[340px]">
         <div className="align-middle">
           <li onClick={() => navigate("/")}>
-            <img className="rounded-lg cursor-pointer" width="50" src={DIcon} />
+            <img alt="D Icon" className="rounded-lg cursor-pointer" width="50" src={DIcon} />
           </li>
         </div>
         <div className="list-none flex gap-6 align-middle justify-end ">
