@@ -9,20 +9,8 @@ import {
   DialogTitle,
 } from "@mui/material";
 
-
 import emailjs from "@emailjs/browser";
-const style = {
-  position: "absolute",
-  top: "50%",
-  left: "50%",
-  transform: "translate(-50%, -50%)",
-  width: 400,
-  bgcolor: "background.paper",
-  border: "2px solid #000",
-  boxShadow: 24,
-  p: 4,
-};
-function GifModal({ show, handleClose }) {
+function GifModal({ show, handleClose, submitted, setSubmitted }) {
   const form = useRef();
   const [userContact, setUserContact] = useState({
     to_name: "Dan",
@@ -53,48 +41,68 @@ function GifModal({ show, handleClose }) {
           console.log("FAILED...", error);
         }
       );
-    handleClose();
-
+    setSubmitted(true);
+    setUserContact({
+      to_name: "Dan",
+      from_name: "Portfolio message",
+      subject: "Portfolio Email",
+      email: "",
+      message: "",
+    });
   };
 
   return (
     <div>
       <Dialog open={show} onClose={handleClose}>
-        <DialogTitle>Contact Me</DialogTitle>
-
-        <DialogContent>
-          <DialogContentText>
-            Please enter your contact details and message below.
-          </DialogContentText>
-          <form ref={form} onSubmit={(e) => handleSubmit(e, form)}>
-            <TextField
-              autoFocus
-              margin="dense"
-              id="email"
-              label="Email Address"
-              type="email"
-              fullWidth
-              value={userContact.email}
-              name="email"
-              onChange={handleChange}
-            />
-            <TextField
-              margin="dense"
-              id="message"
-              label="Message"
-              multiline
-              rows={4}
-              fullWidth
-              value={userContact.message}
-              name="message"
-              onChange={handleChange}
-            />
+        {!submitted ? (
+          <DialogTitle>Contact Me</DialogTitle>
+        ) : (
+          <DialogTitle>Sent!</DialogTitle>
+        )}
+        {!submitted ? (
+          <DialogContent>
+            <DialogContentText>
+              Please enter your contact details and message below.
+            </DialogContentText>
+            <form ref={form} onSubmit={(e) => handleSubmit(e, form)}>
+              <TextField
+                autoFocus
+                margin="dense"
+                id="email"
+                label="Email Address"
+                type="email"
+                fullWidth
+                value={userContact.email}
+                name="email"
+                onChange={handleChange}
+              />
+              <TextField
+                margin="dense"
+                id="message"
+                label="Message"
+                multiline
+                rows={4}
+                fullWidth
+                value={userContact.message}
+                name="message"
+                onChange={handleChange}
+              />
+              <DialogActions>
+                <Button onClick={handleClose}>Cancel</Button>
+                <Button type="submit">Submit</Button>
+              </DialogActions>
+            </form>
+          </DialogContent>
+        ) : (
+          <DialogContent>
+            <DialogContentText>
+              Thank you for your message! I'll be in touch shortly.
+            </DialogContentText>
             <DialogActions>
-              <Button onClick={handleClose}>Cancel</Button>
-              <Button type="submit">Submit</Button>
+              <Button onClick={handleClose}>Close</Button>
             </DialogActions>
-          </form>
-        </DialogContent>
+          </DialogContent>
+        )}
       </Dialog>
     </div>
   );
