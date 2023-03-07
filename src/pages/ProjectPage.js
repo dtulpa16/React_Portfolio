@@ -86,11 +86,13 @@ export default function ProjectPage() {
         <div class="h-250 min-h-[266px] transition-all duration-10 cursor-default  p-3 text-white w-72 rounded-sm gap-4 shadow-md shadow-slate-800 drop-shadow-sm  bg-[#08386b] flex flex-col justify-center items-center mt-10 border-[1.5px] border-black">
           <img alt="" src={Task} width="120" class="rounded-full -mt-16 border-[1px] border-black-800/900  shadow-sm shadow-slate-300 drop-shadow-sm" />
           <h1 class="text-2xl font-bold mt-2">Task Manager</h1>
+          
           <h1 class="text-sm font-semibold min-h-[100px]">
             A Slack bot that streamlines task management. The bot
             integrates with Notion API to create and update tasks automatically,
             saving time and effort.
           </h1>
+      
           <h1 class="text-xl font-bold">Tools</h1>
           <div class="flex flex-row gap-1 flex-wrap pr-2 pl-2 align-middle items-center justify-center">
             <img alt="" src={ExpressIcon} width="42" height="42" class="border-[1px] rounded-lg p-[3px] border-black  transition-all duration-100 hover:scale-105 cursor-pointer bg-white"/>
