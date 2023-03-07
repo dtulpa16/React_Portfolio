@@ -26,42 +26,42 @@ export default function ProjectPage() {
       <h1 class="text-center mt-4 text-4xl font-bold">Projects</h1>
       <div class="flex flex-wrap justify-center text-center items-center gap-6 mt-14">
       <a target="_blank" rel="noopener" href="http://ec2-34-204-82-92.compute-1.amazonaws.com">
-        <div class=" cursor-pointer h-250 min-h-[266px] transition-all duration-10 p-3 text-black w-72 shadow-md shadow-slate-800 drop-shadow-sm  rounded-lg gap-4 bg-white flex flex-col justify-center items-center mt-10 border-[1.5px] border-black">
-          <img alt="" src={Jaunt} width="120" class="rounded-full -mt-16 border-[1.5px] border-black shadow-sm shadow-slate-800 drop-shadow-sm " />
+        <div class=" cursor-pointer h-250 min-h-[266px] transition-all duration-10 p-3 text-black w-72 shadow-md shadow-gray-500 drop-shadow-sm  rounded-lg gap-4 bg-white flex flex-col justify-center items-center mt-10 border-[1.5px] border-black">
+          <img alt="" src={Jaunt} width="120" class="rounded-full -mt-16 border-[1.5px] border-black shadow-sm shadow-gray-500 drop-shadow-sm " />
           <h1 class="text-2xl font-bold mt-2">Jaunt</h1>
           <div class="text-sm min-h-[100px] flex items-center justify-center">
-            <h1>
+            <h2>
               Fitness application for clients and trainers that generates custom
               workout and diet plans based on physical characteristics and fitness
               goals.
-            </h1>
+            </h2>
           </div>
           <h1 class="text-xl font-bold">Tools</h1>
           <div class="flex flex-row gap-1 flex-wrap pr-2 pl-2 align-middle items-center justify-center">
-          <a target="_blank" rel="noopener" href="https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/React_getting_started">
-            <img alt="ReactJS" src={ReactLogo} width="42" height="42" class="border-[1px] rounded-lg p-[3px] border-black  transition-all duration-100 hover:scale-105 cursor-pointer bg-white"/>
-          </a>
-          <a target="_blank" rel="noopener" href="https://mui.com/">
-            <img alt="MaterialUI" src={MuiIcon} width="42" height="42" class="border-[1px] rounded-lg p-[3px] border-black  transition-all duration-100 hover:scale-105 cursor-pointer bg-white"/>
-          </a>
-          <a target="_blank" rel="noopener" href="https://developer.mozilla.org/en-US/docs/Web/CSS">
-            <img alt="CSS 3" src={CSSIcon} width="42" height="42" class="border-[1px] rounded-lg p-[3px] border-black transition-all duration-100 hover:scale-105 cursor-pointer bg-white"/>
-          </a>
-          <a target="_blank" rel="noopener" href="https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django">
-            <img alt="Django Rest Framework" src={DjangoIcon} width="42" height="42" class="border-[1px] rounded-lg p-[3px] border-black transition-all duration-100 hover:scale-105 cursor-pointer bg-white"/>
-          </a>
-          <a target="_blank" rel="noopener" href="https://www.mysql.com/">
-            <img alt="MySQL" src={MySQL} width="42" height="42" class="border-[1px] rounded-lg p-[3px] border-black transition-all duration-100 hover:scale-105 cursor-pointer bg-white"/>
-          </a>
-          <a target="_blank" rel="noopener" href="https://github.com/SeleniumHQ/selenium">
-            <img alt="Selenium Web Scraper" src={SeleniumIcon} width="42" height="42" class="border-[1px] rounded-lg p-[3px] border-black transition-all duration-100 hover:scale-105 cursor-pointer bg-white"/>
-          </a>
-          <a target="_blank" rel="noopener" href="https://aws.amazon.com/">
-            <img alt="Amazon Web Services" src={AWSIcon} width="42" class="h-[42px] object-contain border-[1px] rounded-lg p-[3px] border-black transition-all duration-100 hover:scale-105 cursor-pointer bg-white"/>
-          </a>
-          <a target="_blank" rel="noopener" href="https://getbootstrap.com/">
-            <img alt="Bootstrap" src={BootstrapIcon} width="42" height="42" class="border-[1px] rounded-lg p-[3px] border-black transition-all duration-100 hover:scale-105 cursor-pointer bg-white"/>
-          </a>
+            <a target="_blank" rel="noopener" href="https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/React_getting_started">
+              <img alt="ReactJS" src={ReactLogo} width="42" height="42" class="border-[1px] rounded-lg p-[3px] border-black  transition-all duration-100 hover:scale-105 cursor-pointer bg-white"/>
+            </a>
+            <a target="_blank" rel="noopener" href="https://mui.com/">
+              <img alt="MaterialUI" src={MuiIcon} width="42" height="42" class="border-[1px] rounded-lg p-[3px] border-black  transition-all duration-100 hover:scale-105 cursor-pointer bg-white"/>
+            </a>
+            <a target="_blank" rel="noopener" href="https://developer.mozilla.org/en-US/docs/Web/CSS">
+              <img alt="CSS 3" src={CSSIcon} width="42" height="42" class="border-[1px] rounded-lg p-[3px] border-black transition-all duration-100 hover:scale-105 cursor-pointer bg-white"/>
+            </a>
+            <a target="_blank" rel="noopener" href="https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django">
+              <img alt="Django Rest Framework" src={DjangoIcon} width="42" height="42" class="border-[1px] rounded-lg p-[3px] border-black transition-all duration-100 hover:scale-105 cursor-pointer bg-white"/>
+            </a>
+            <a target="_blank" rel="noopener" href="https://www.mysql.com/">
+              <img alt="MySQL" src={MySQL} width="42" height="42" class="border-[1px] rounded-lg p-[3px] border-black transition-all duration-100 hover:scale-105 cursor-pointer bg-white"/>
+            </a>
+            <a target="_blank" rel="noopener" href="https://github.com/SeleniumHQ/selenium">
+              <img alt="Selenium Web Scraper" src={SeleniumIcon} width="42" height="42" class="border-[1px] rounded-lg p-[3px] border-black transition-all duration-100 hover:scale-105 cursor-pointer bg-white"/>
+            </a>
+            <a target="_blank" rel="noopener" href="https://aws.amazon.com/">
+              <img alt="Amazon Web Services" src={AWSIcon} width="42" class="h-[42px] object-contain border-[1px] rounded-lg p-[3px] border-black transition-all duration-100 hover:scale-105 cursor-pointer bg-white"/>
+            </a>
+            <a target="_blank" rel="noopener" href="https://getbootstrap.com/">
+              <img alt="Bootstrap" src={BootstrapIcon} width="42" height="42" class="border-[1px] rounded-lg p-[3px] border-black transition-all duration-100 hover:scale-105 cursor-pointer bg-white"/>
+            </a>
           </div>
         </div>
       </a>
@@ -69,10 +69,10 @@ export default function ProjectPage() {
           <img alt="" src={Flex} width="120" class="rounded-full -mt-16 border-[1px] border-black-800/900 " />
           <h1 class="text-2xl font-bold mt-2">Flex Bot</h1>
           <div class="text-sm min-h-[100px] flex items-center justify-center">
-            <h1>
+            <h2>
               An efficient tool for instructors to manage student meetings and
               track progress using Slack and Notion Database.
-            </h1>
+            </h2>
           </div>
           <h1 class="text-xl font-bold">Tools</h1>
           <div class="flex flex-row gap-1 flex-wrap pr-2 pl-2 align-middle items-center justify-center">
@@ -103,10 +103,10 @@ export default function ProjectPage() {
           <img alt="" src={QQ} width="120" class="rounded-full -mt-16 border-[1px] border-black-800/900  shadow-sm shadow-slate-300 drop-shadow-sm" />
           <h1 class="text-2xl font-bold mt-2">Question Queue Bot</h1>
           <div class="text-sm min-h-[100px] flex items-center justify-center">
-            <h1>
+            <h2>
               A Slack bot designed to streamline the process of students seeking
               help from the Instructor Team.
-            </h1>
+            </h2>
           </div>
           <h1 class="text-xl font-bold">Tools</h1>
           <div class="flex flex-row gap-1 flex-wrap pr-2 pl-2 align-middle items-center justify-center">
@@ -137,11 +137,11 @@ export default function ProjectPage() {
           <img alt="" src={Task} width="120" class="rounded-full -mt-16 border-[1px] border-black-800/900  shadow-sm shadow-slate-300 drop-shadow-sm" />
           <h1 class="text-2xl font-bold mt-2">Task Manager</h1>
           <div class="text-sm min-h-[100px] flex items-center justify-center">
-            <h1>
+            <h2>
               A Slack bot that streamlines task management. The bot
               integrates with Notion API to create and update tasks automatically,
               saving time and effort.
-            </h1>
+            </h2>
           </div>
           <h1 class="text-xl font-bold">Tools</h1>
           <div class="flex flex-row gap-1 flex-wrap pr-2 pl-2 align-middle items-center justify-center">
@@ -165,10 +165,6 @@ export default function ProjectPage() {
             </a>
           </div>
         </div>
-        {/* <div class="h-250 transition-all duration-100 hover:scale-105 cursor-pointer p-3 w-52 rounded-lg gap-2 bg-blue-900 flex flex-col justify-center items-center">
-          <img alt="" src={QQ} width="200" />
-          <h1>Project Name</h1>
-        </div> */}
       </div>
     </div>
   );

@@ -41,69 +41,87 @@ export default function AboutPage() {
           </h1>
           <h1 class="text-2xl font-semibold">Tools</h1>
           <div class="flex flex-row gap-4 flex-wrap pr-8 pl-8 align-middle items-center justify-center">
-            <img
-              alt="ReactJS"
-              src={ReactIcon}
-              width="42"
-              height="42"
-              class="border-[1px] rounded-lg p-[3px] border-black  transition-all duration-100 hover:scale-105 cursor-pointer bg-white"
-            />
-            <img
-              alt="Django REST Framework"
-              src={DjangoIcon}
-              width="42"
-              height="42"
-              class="border-[1px] rounded-lg p-[3px] border-black  transition-all duration-100 hover:scale-105 cursor-pointer bg-white"
-            />
-            <img
-              alt="NodeJS"
-              src={NodeIcon}
-              width="42"
-              height="42"
-              class="border-[1px] rounded-lg p-[3px] border-black transition-all duration-100 hover:scale-105 cursor-pointer bg-white"
-            />
-            <img
-              alt="Python"
-              src={PythonIcon}
-              width="42"
-              height="42"
-              class="border-[1px] rounded-lg p-[3px] border-black transition-all duration-100 hover:scale-105 cursor-pointer bg-white"
-            />
-            <img
-              alt="HTML5"
-              src={HTMLIcon}
-              width="42"
-              height="42"
-              class="h-[42px] border-[1px] rounded-lg p-[3px] border-black transition-all duration-100 hover:scale-105 cursor-pointer bg-white"
-            />
-            <img
-              alt="CSS 3"
-              src={CSSIcon}
-              width="42"
-              height="42"
-              class="h-[42px] border-[1px] rounded-lg p-[3px] border-black transition-all duration-100 hover:scale-105 cursor-pointer bg-white"
-            />
-            <img
-              alt="TailwindCSS"
-              src={TailwindIcon}
-              width="42"
-              height="42"
-              class="h-[42px] border-[1px] rounded-lg p-[3px] border-black transition-all duration-100 hover:scale-105 cursor-pointer bg-white"
-            />
-            <img
-              alt="MongoDB"
-              src={MongoIcon}
-              width="42"
-              height="42"
-              class="border-[1px] rounded-lg p-[3px] border-black transition-all duration-100 hover:scale-105 cursor-pointer bg-white"
-            />
-            <img
-              alt="MySQL"
-              src={MySQL}
-              width="42"
-              height="42"
-              class="border-[1px] rounded-lg p-[3px] border-black transition-all duration-100 hover:scale-105 cursor-pointer bg-white"
-            />
+            <a target="_blank" rel="noopener" href="https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/React_getting_started">
+              <img
+                alt="ReactJS"
+                src={ReactIcon}
+                width="42"
+                height="42"
+                class="border-[1px] rounded-lg p-[3px] border-black  transition-all duration-100 hover:scale-105 cursor-pointer bg-white"
+              />
+            </a>
+            <a target="_blank" rel="noopener" href="https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django">
+              <img
+                alt="Django REST Framework"
+                src={DjangoIcon}
+                width="42"
+                height="42"
+                class="border-[1px] rounded-lg p-[3px] border-black  transition-all duration-100 hover:scale-105 cursor-pointer bg-white"
+              />
+            </a>
+            <a target="_blank" rel="noopener" href="https://nodejs.org/en/docs/">
+              <img
+                alt="NodeJS"
+                src={NodeIcon}
+                width="42"
+                height="42"
+                class="border-[1px] rounded-lg p-[3px] border-black transition-all duration-100 hover:scale-105 cursor-pointer bg-white"
+              />
+            </a>
+            <a target="_blank" rel="noopener" href="https://developer.mozilla.org/en-US/docs/Glossary/Python">
+              <img
+                alt="Python"
+                src={PythonIcon}
+                width="42"
+                height="42"
+                class="border-[1px] rounded-lg p-[3px] border-black transition-all duration-100 hover:scale-105 cursor-pointer bg-white"
+              />
+            </a>
+            <a target="_blank" rel="noopener" href="https://developer.mozilla.org/en-US/docs/Web/HTML">
+              <img
+                alt="HTML5"
+                src={HTMLIcon}
+                width="42"
+                height="42"
+                class="h-[42px] border-[1px] rounded-lg p-[3px] border-black transition-all duration-100 hover:scale-105 cursor-pointer bg-white"
+              />
+            </a>
+            <a target="_blank" rel="noopener" href="https://developer.mozilla.org/en-US/docs/Web/CSS">
+              <img
+                alt="CSS 3"
+                src={CSSIcon}
+                width="42"
+                height="42"
+                class="h-[42px] border-[1px] rounded-lg p-[3px] border-black transition-all duration-100 hover:scale-105 cursor-pointer bg-white"
+              />
+            </a>
+            <a target="_blank" rel="noopener" href="https://tailwindcss.com/">
+              <img
+                alt="TailwindCSS"
+                src={TailwindIcon}
+                width="42"
+                height="42"
+                class="h-[42px] border-[1px] rounded-lg p-[3px] border-black transition-all duration-100 hover:scale-105 cursor-pointer bg-white"
+              />
+            </a>
+            <a target="_blank" rel="noopener" href="https://www.mongodb.com/">
+              <img
+                alt="MongoDB"
+                src={MongoIcon}
+                width="42"
+                height="42"
+                class="border-[1px] rounded-lg p-[3px] border-black transition-all duration-100 hover:scale-105 cursor-pointer bg-white"
+              />
+            </a>
+            <a target="_blank" rel="noopener" href="https://www.mysql.com/">
+              <img
+                alt="MySQL"
+                src={MySQL}
+                width="42"
+                height="42"
+                class="border-[1px] rounded-lg p-[3px] border-black transition-all duration-100 hover:scale-105 cursor-pointer bg-white"
+              />
+            </a>
           </div>
         </div>
       </div>

@@ -8,9 +8,9 @@ export default function HomePage() {
     <title>Welcome!</title>
 
       <img alt="Dan Tulpa Headshot" width="275" className=" border-gray-50 border border-solid rounded-full mb-3 -mt-24" src={HeadShot} />
-      <h1 className="text-3xl mb-2">Hey there! 👋 The name's Dan.</h1>
-      <h1 className="text-2xl mb-2">I provide end-to-end solutions for any web development project.</h1>
-      <h1 className="text-xl mb-12">Happy to have you here!</h1>
+      <h1 className="text-3xl mb-2 text-shadow-md text-white shadow-gray-400 font-bold">Hey there! 👋 The name's Dan.</h1>
+      <h1 className="text-2xl mb-2 text-shadow-md text-white shadow-gray-400 font-semibold">I provide end-to-end solutions for any web development project.</h1>
+      <h1 className="text-xl mb-12 text-shadow-md text-white shadow-gray-400 font-semibold">Happy to have you here!</h1>
     </div>
   );
 }
