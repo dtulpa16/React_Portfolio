@@ -28,7 +28,7 @@ export default function ProjectPage() {
       <div class="flex flex-wrap justify-center text-center items-center gap-6 mt-14">
       <a target="_blank" rel="noopener" href="http://ec2-34-204-82-92.compute-1.amazonaws.com">
         <div class=" cursor-pointer h-250 min-h-[266px] transition-all duration-10 p-3 text-black w-72 shadow-md shadow-gray-500 drop-shadow-sm  rounded-lg gap-4 bg-white flex flex-col justify-center items-center mt-10 border-[1.5px] border-black">
-          <img alt="" src={Jaunt} width="120" class="rounded-full -mt-16 border-[1.5px] border-black shadow-sm shadow-gray-500 drop-shadow-sm " />
+          <img alt="" src={Jaunt} width="120" class="rounded-full -mt-16  shadow-smdrop-shadow- p-2 bg-white" />
           <h1 class="text-2xl font-bold mt-2">Jaunt</h1>
           <div class="text-sm min-h-[100px] flex items-center justify-center">
             <h2>
@@ -77,7 +77,7 @@ export default function ProjectPage() {
         </div>
       </a>
         <div class="h-250 min-h-[266px] transition-all duration-10 cursor-default  p-3  text-black w-72 shadow-md shadow-slate-800 drop-shadow-sm  rounded-lg gap-4 bg-white flex flex-col justify-center items-center mt-10 border-[1.5px] border-black">
-          <img alt="" src={Flex} width="120" class="rounded-full -mt-16 border-[1px] border-black-800/900 " />
+          <img alt="" src={Flex} width="120" class="rounded-full -mt-16  shadow-smdrop-shadow- p-2 bg-white" />
           <h1 class="text-2xl font-bold mt-2">Flex Bot</h1>
           <div class="text-sm min-h-[100px] flex items-center justify-center">
             <h2>
@@ -111,7 +111,7 @@ export default function ProjectPage() {
           </div>
         </div>
         <div class="h-250 min-h-[266px] transition-all duration-10 cursor-default  p-3  text-black w-72 shadow-md shadow-slate-800 drop-shadow-sm  rounded-lg gap-4 bg-white flex flex-col justify-center items-center mt-10 border-[1.5px] border-black">
-          <img alt="" src={QQ} width="120" class="rounded-full -mt-16 border-[1px] border-black-800/900  shadow-sm shadow-slate-300 drop-shadow-sm" />
+          <img alt="" src={QQ} width="120" class="rounded-full -mt-16  shadow-smdrop-shadow- p-2 bg-white" />
           <h1 class="text-2xl font-bold mt-2">Question Queue Bot</h1>
           <div class="text-sm min-h-[100px] flex items-center justify-center">
             <h2>
@@ -145,7 +145,7 @@ export default function ProjectPage() {
           </div>
         </div>
         <div class="h-250 min-h-[266px] transition-all duration-10 cursor-default  p-3  text-black w-72 shadow-md shadow-slate-800 drop-shadow-sm  rounded-lg gap-4 bg-white flex flex-col justify-center items-center mt-10 border-[1.5px] border-black">
-          <img alt="" src={Task} width="120" class="rounded-full -mt-16 border-[1px] border-black-800/900  shadow-sm shadow-slate-300 drop-shadow-sm" />
+          <img alt="" src={Task} width="120" class="rounded-full -mt-16  shadow-smdrop-shadow- p-2 bg-white" />
           <h1 class="text-2xl font-bold mt-2">Task Manager</h1>
           <div class="text-sm min-h-[100px] flex items-center justify-center">
             <h2>
