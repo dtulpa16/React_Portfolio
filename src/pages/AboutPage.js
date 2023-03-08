@@ -41,7 +41,7 @@ export default function AboutPage() {
           </h1>
           <h1 class="text-2xl font-semibold">Tools</h1>
           <div class="flex flex-row gap-4 flex-wrap pr-8 pl-8 align-middle items-center justify-center">
-            <a target="_blank" rel="noopener" href="https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/React_getting_started">
+            <a target="_blank" rel="noreferrer" href="https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/React_getting_started">
               <img
                 alt="ReactJS"
                 src={ReactIcon}
@@ -50,7 +50,7 @@ export default function AboutPage() {
                 class="border-[1px] rounded-lg p-[3px] border-black  transition-all duration-100 hover:scale-105 cursor-pointer bg-white"
               />
             </a>
-            <a target="_blank" rel="noopener" href="https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django">
+            <a target="_blank" rel="noreferrer" href="https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django">
               <img
                 alt="Django REST Framework"
                 src={DjangoIcon}
@@ -59,7 +59,7 @@ export default function AboutPage() {
                 class="border-[1px] rounded-lg p-[3px] border-black  transition-all duration-100 hover:scale-105 cursor-pointer bg-white"
               />
             </a>
-            <a target="_blank" rel="noopener" href="https://nodejs.org/en/docs/">
+            <a target="_blank" rel="noreferrer" href="https://nodejs.org/en/docs/">
               <img
                 alt="NodeJS"
                 src={NodeIcon}
@@ -68,7 +68,7 @@ export default function AboutPage() {
                 class="border-[1px] rounded-lg p-[3px] border-black transition-all duration-100 hover:scale-105 cursor-pointer bg-white"
               />
             </a>
-            <a target="_blank" rel="noopener" href="https://developer.mozilla.org/en-US/docs/Glossary/Python">
+            <a target="_blank" rel="noreferrer" href="https://developer.mozilla.org/en-US/docs/Glossary/Python">
               <img
                 alt="Python"
                 src={PythonIcon}
@@ -77,7 +77,7 @@ export default function AboutPage() {
                 class="border-[1px] rounded-lg p-[3px] border-black transition-all duration-100 hover:scale-105 cursor-pointer bg-white"
               />
             </a>
-            <a target="_blank" rel="noopener" href="https://developer.mozilla.org/en-US/docs/Web/HTML">
+            <a target="_blank" rel="noreferrer" href="https://developer.mozilla.org/en-US/docs/Web/HTML">
               <img
                 alt="HTML5"
                 src={HTMLIcon}
@@ -86,7 +86,7 @@ export default function AboutPage() {
                 class="h-[42px] border-[1px] rounded-lg p-[3px] border-black transition-all duration-100 hover:scale-105 cursor-pointer bg-white"
               />
             </a>
-            <a target="_blank" rel="noopener" href="https://developer.mozilla.org/en-US/docs/Web/CSS">
+            <a target="_blank" rel="noreferrer" href="https://developer.mozilla.org/en-US/docs/Web/CSS">
               <img
                 alt="CSS 3"
                 src={CSSIcon}
@@ -95,7 +95,7 @@ export default function AboutPage() {
                 class="h-[42px] border-[1px] rounded-lg p-[3px] border-black transition-all duration-100 hover:scale-105 cursor-pointer bg-white"
               />
             </a>
-            <a target="_blank" rel="noopener" href="https://tailwindcss.com/">
+            <a target="_blank" rel="noreferrer" href="https://tailwindcss.com/">
               <img
                 alt="TailwindCSS"
                 src={TailwindIcon}
@@ -104,7 +104,7 @@ export default function AboutPage() {
                 class="h-[42px] border-[1px] rounded-lg p-[3px] border-black transition-all duration-100 hover:scale-105 cursor-pointer bg-white"
               />
             </a>
-            <a target="_blank" rel="noopener" href="https://www.mongodb.com/">
+            <a target="_blank" rel="noreferrer" href="https://www.mongodb.com/">
               <img
                 alt="MongoDB"
                 src={MongoIcon}
@@ -113,7 +113,7 @@ export default function AboutPage() {
                 class="border-[1px] rounded-lg p-[3px] border-black transition-all duration-100 hover:scale-105 cursor-pointer bg-white"
               />
             </a>
-            <a target="_blank" rel="noopener" href="https://www.mysql.com/">
+            <a target="_blank" rel="noreferrer" href="https://www.mysql.com/">
               <img
                 alt="MySQL"
                 src={MySQL}

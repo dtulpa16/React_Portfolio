@@ -26,7 +26,7 @@ export default function ProjectPage() {
     <title>Projects</title>
       <h1 class="text-center mt-4 text-4xl font-bold">Projects</h1>
       <div class="flex flex-wrap justify-center text-center gap-x-6 items-center gap-y-10 mt-14">
-      <a target="_blank" rel="noopener" href="http://ec2-34-204-82-92.compute-1.amazonaws.com">
+      <a target="_blank" rel="noreferrer" href="http://ec2-34-204-82-92.compute-1.amazonaws.com">
         <div class=" cursor-pointer h-250 min-h-[266px] transition-all duration-10 p-3 text-black w-72 shadow-md shadow-gray-500 drop-shadow-sm  rounded-lg gap-4 bg-white flex flex-col justify-center items-center mt-10 border-[1.5px] border-black">
           <img alt="" src={Jaunt} width="120" class="rounded-full -mt-16  shadow-smdrop-shadow- p-1 bg-white" />
           <h1 class="text-2xl font-bold mt-2">Jaunt</h1>
@@ -40,37 +40,37 @@ export default function ProjectPage() {
           <h1 class="text-xl font-bold">Tools</h1>
           <div class="flex flex-row gap-1 flex-wrap pr-2 pl-2 align-middle items-center justify-center">
             <Tippy content="ReactJS">
-              <a target="_blank" rel="noopener" href="https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/React_getting_started">
+              <a target="_blank" rel="noreferrer" href="https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/React_getting_started">
                 <img alt="ReactJS" src={ReactLogo} width="42" height="42" class="border-[1px] rounded-lg p-[3px] border-black  transition-all duration-100 hover:scale-105 cursor-pointer bg-white"/>
               </a>
             </Tippy>
             <Tippy content="MaterialUI">
-              <a target="_blank" rel="noopener" href="https://mui.com/">
+              <a target="_blank" rel="noreferrer" href="https://mui.com/">
                 <img alt="MaterialUI" src={MuiIcon} width="42" height="42" class="border-[1px] rounded-lg p-[3px] border-black  transition-all duration-100 hover:scale-105 cursor-pointer bg-white"/>
               </a>
             </Tippy>
             <Tippy content="CSS 3">
-              <a target="_blank" rel="noopener" href="https://developer.mozilla.org/en-US/docs/Web/CSS">
+              <a target="_blank" rel="noreferrer" href="https://developer.mozilla.org/en-US/docs/Web/CSS">
                 <img alt="CSS 3" src={CSSIcon} width="42" height="42" class="border-[1px] rounded-lg p-[3px] border-black transition-all duration-100 hover:scale-105 cursor-pointer bg-white"/>
               </a>
             </Tippy>
             <Tippy content="Django">
-              <a target="_blank" rel="noopener" href="https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django">
+              <a target="_blank" rel="noreferrer" href="https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django">
                 <img alt="Django Rest Framework" src={DjangoIcon} width="42" height="42" class="border-[1px] rounded-lg p-[3px] border-black transition-all duration-100 hover:scale-105 cursor-pointer bg-white"/>
               </a>
             </Tippy>
             <Tippy content="MySQL">
-              <a target="_blank" rel="noopener" href="https://www.mysql.com/">
+              <a target="_blank" rel="noreferrer" href="https://www.mysql.com/">
                 <img alt="MySQL" src={MySQL} width="42" height="42" class="border-[1px] rounded-lg p-[3px] border-black transition-all duration-100 hover:scale-105 cursor-pointer bg-white"/>
               </a>
             </Tippy>
-            <a target="_blank" rel="noopener" href="https://github.com/SeleniumHQ/selenium">
+            <a target="_blank" rel="noreferrer" href="https://github.com/SeleniumHQ/selenium">
               <img alt="Selenium Web Scraper" src={SeleniumIcon} width="42" height="42" class="border-[1px] rounded-lg p-[3px] border-black transition-all duration-100 hover:scale-105 cursor-pointer bg-white"/>
             </a>
-            <a target="_blank" rel="noopener" href="https://aws.amazon.com/">
+            <a target="_blank" rel="noreferrer" href="https://aws.amazon.com/">
               <img alt="Amazon Web Services" src={AWSIcon} width="42" class="h-[42px] object-contain border-[1px] rounded-lg p-[3px] border-black transition-all duration-100 hover:scale-105 cursor-pointer bg-white"/>
             </a>
-            <a target="_blank" rel="noopener" href="https://getbootstrap.com/">
+            <a target="_blank" rel="noreferrer" href="https://getbootstrap.com/">
               <img alt="Bootstrap" src={BootstrapIcon} width="42" height="42" class="border-[1px] rounded-lg p-[3px] border-black transition-all duration-100 hover:scale-105 cursor-pointer bg-white"/>
             </a>
           </div>
@@ -87,25 +87,25 @@ export default function ProjectPage() {
           </div>
           <h1 class="text-xl font-bold">Tools</h1>
           <div class="flex flex-row gap-1 flex-wrap pr-2 pl-2 align-middle items-center justify-center">
-            <a target="_blank" rel="noopener" href="https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs">
+            <a target="_blank" rel="noreferrer" href="https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs">
               <img alt="ExressJS" src={ExpressIcon} width="42" height="42" class="border-[1px] rounded-lg p-[3px] border-black  transition-all duration-100 hover:scale-105 cursor-pointer bg-white"/>
             </a>
-            <a target="_blank" rel="noopener" href="https://api.slack.com/apis">
+            <a target="_blank" rel="noreferrer" href="https://api.slack.com/apis">
               <img alt="Slack API" src={SlackIcon} width="42" height="42" class="border-[1px] rounded-lg p-[3px] border-black  transition-all duration-100 hover:scale-105 cursor-pointer bg-white"/>
             </a>
-            <a target="_blank" rel="noopener" href="https://developers.notion.com/">
+            <a target="_blank" rel="noreferrer" href="https://developers.notion.com/">
               <img alt="Notion API" src={NotionIcon} width="42" height="42" class=" border-[1px] rounded-lg p-[3px] border-black transition-all duration-100 hover:scale-105 cursor-pointer bg-white"/>
             </a>
-            <a target="_blank" rel="noopener" href="https://platform.openai.com/">
+            <a target="_blank" rel="noreferrer" href="https://platform.openai.com/">
               <img alt="OpenAI API" src={OpenAiIcon} width="42" height="42" class="h-[42px] border-[1px] rounded-lg p-[3px] border-black transition-all duration-100 hover:scale-105 cursor-pointer bg-white"/>
             </a>
-            <a target="_blank" rel="noopener" href="https://www.mongodb.com/docs/atlas/">
+            <a target="_blank" rel="noreferrer" href="https://www.mongodb.com/docs/atlas/">
               <img alt="MongoDB" src={MongoIcon} width="42" height="42" class="border-[1px] rounded-lg p-[3px] border-black transition-all duration-100 hover:scale-105 cursor-pointer bg-white"/>
             </a>
-            <a target="_blank" rel="noopener" href="https://ngrok.com/docs">
+            <a target="_blank" rel="noreferrer" href="https://ngrok.com/docs">
               <img alt="NGrok HTTP Tunneling" src={NgrokIcon} width="42" height="42" class="border-[1px] rounded-lg p-[3px] border-black transition-all duration-100 hover:scale-105 cursor-pointer bg-white"/>
             </a>
-            <a target="_blank" rel="noopener" href="https://www.postman.com/">
+            <a target="_blank" rel="noreferrer" href="https://www.postman.com/">
               <img alt="Postman" src={PostmanIcon} width="42" height="42" class="border-[1px] rounded-lg p-[3px] border-black transition-all duration-100 hover:scale-105 cursor-pointer bg-white"/>
             </a>
           </div>
@@ -121,25 +121,25 @@ export default function ProjectPage() {
           </div>
           <h1 class="text-xl font-bold">Tools</h1>
           <div class="flex flex-row gap-1 flex-wrap pr-2 pl-2 align-middle items-center justify-center">
-          <a target="_blank" rel="noopener" href="https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs">
+          <a target="_blank" rel="noreferrer" href="https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs">
               <img alt="ExressJS" src={ExpressIcon} width="42" height="42" class="border-[1px] rounded-lg p-[3px] border-black  transition-all duration-100 hover:scale-105 cursor-pointer bg-white"/>
             </a>
-            <a target="_blank" rel="noopener" href="https://api.slack.com/apis">
+            <a target="_blank" rel="noreferrer" href="https://api.slack.com/apis">
               <img alt="Slack API" src={SlackIcon} width="42" height="42" class="border-[1px] rounded-lg p-[3px] border-black  transition-all duration-100 hover:scale-105 cursor-pointer bg-white"/>
             </a>
-            <a target="_blank" rel="noopener" href="https://developers.notion.com/">
+            <a target="_blank" rel="noreferrer" href="https://developers.notion.com/">
               <img alt="Notion API" src={NotionIcon} width="42" height="42" class=" border-[1px] rounded-lg p-[3px] border-black transition-all duration-100 hover:scale-105 cursor-pointer bg-white"/>
             </a>
-            <a target="_blank" rel="noopener" href="https://platform.openai.com/">
+            <a target="_blank" rel="noreferrer" href="https://platform.openai.com/">
               <img alt="OpenAI API" src={OpenAiIcon} width="42" height="42" class="h-[42px] border-[1px] rounded-lg p-[3px] border-black transition-all duration-100 hover:scale-105 cursor-pointer bg-white"/>
             </a>
-            <a target="_blank" rel="noopener" href="https://www.mongodb.com/docs/atlas/">
+            <a target="_blank" rel="noreferrer" href="https://www.mongodb.com/docs/atlas/">
               <img alt="MongoDB" src={MongoIcon} width="42" height="42" class="border-[1px] rounded-lg p-[3px] border-black transition-all duration-100 hover:scale-105 cursor-pointer bg-white"/>
             </a>
-            <a target="_blank" rel="noopener" href="https://ngrok.com/docs">
+            <a target="_blank" rel="noreferrer" href="https://ngrok.com/docs">
               <img alt="NGrok HTTP Tunneling" src={NgrokIcon} width="42" height="42" class="border-[1px] rounded-lg p-[3px] border-black transition-all duration-100 hover:scale-105 cursor-pointer bg-white"/>
             </a>
-            <a target="_blank" rel="noopener" href="https://www.postman.com/">
+            <a target="_blank" rel="noreferrer" href="https://www.postman.com/">
               <img alt="Postman" src={PostmanIcon} width="42" height="42" class="border-[1px] rounded-lg p-[3px] border-black transition-all duration-100 hover:scale-105 cursor-pointer bg-white"/>
             </a>
           </div>
@@ -156,22 +156,22 @@ export default function ProjectPage() {
           </div>
           <h1 class="text-xl font-bold">Tools</h1>
           <div class="flex flex-row gap-1 flex-wrap pr-2 pl-2 align-middle items-center justify-center">
-          <a target="_blank" rel="noopener" href="https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs">
+          <a target="_blank" rel="noreferrer" href="https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs">
               <img alt="ExressJS" src={ExpressIcon} width="42" height="42" class="border-[1px] rounded-lg p-[3px] border-black  transition-all duration-100 hover:scale-105 cursor-pointer bg-white"/>
             </a>
-            <a target="_blank" rel="noopener" href="https://api.slack.com/apis">
+            <a target="_blank" rel="noreferrer" href="https://api.slack.com/apis">
               <img alt="Slack API" src={SlackIcon} width="42" height="42" class="border-[1px] rounded-lg p-[3px] border-black  transition-all duration-100 hover:scale-105 cursor-pointer bg-white"/>
             </a>
-            <a target="_blank" rel="noopener" href="https://developers.notion.com/">
+            <a target="_blank" rel="noreferrer" href="https://developers.notion.com/">
               <img alt="Notion API" src={NotionIcon} width="42" height="42" class=" border-[1px] rounded-lg p-[3px] border-black transition-all duration-100 hover:scale-105 cursor-pointer bg-white"/>
             </a>
-            <a target="_blank" rel="noopener" href="https://platform.openai.com/">
+            <a target="_blank" rel="noreferrer" href="https://platform.openai.com/">
               <img alt="OpenAI API" src={OpenAiIcon} width="42" height="42" class="h-[42px] border-[1px] rounded-lg p-[3px] border-black transition-all duration-100 hover:scale-105 cursor-pointer bg-white"/>
             </a>
-            <a target="_blank" rel="noopener" href="https://ngrok.com/docs">
+            <a target="_blank" rel="noreferrer" href="https://ngrok.com/docs">
               <img alt="NGrok HTTP Tunneling" src={NgrokIcon} width="42" height="42" class="border-[1px] rounded-lg p-[3px] border-black transition-all duration-100 hover:scale-105 cursor-pointer bg-white"/>
             </a>
-            <a target="_blank" rel="noopener" href="https://www.postman.com/">
+            <a target="_blank" rel="noreferrer" href="https://www.postman.com/">
               <img alt="Postman" src={PostmanIcon} width="42" height="42" class="border-[1px] rounded-lg p-[3px] border-black transition-all duration-100 hover:scale-105 cursor-pointer bg-white"/>
             </a>
           </div>
