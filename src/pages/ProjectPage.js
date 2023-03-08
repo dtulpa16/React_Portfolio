@@ -26,8 +26,8 @@ export default function ProjectPage() {
     <title>Projects</title>
       <h1 class="text-center mt-4 text-4xl font-bold">Projects</h1>
       <div class="flex flex-wrap justify-center text-center gap-x-6 items-center gap-y-10 mt-14">
-      <a target="_blank" rel="noreferrer" href="http://ec2-34-204-82-92.compute-1.amazonaws.com">
-        <div class=" cursor-pointer h-250 min-h-[266px] transition-all duration-10 p-3 text-black w-72 shadow-md shadow-gray-500 drop-shadow-sm  rounded-lg gap-4 bg-white flex flex-col justify-center items-center mt-10 border-[1.5px] border-black">
+      
+        <div class=" h-250 min-h-[266px] transition-all duration-10 p-3 text-black w-72 shadow-md shadow-gray-500 drop-shadow-sm  rounded-lg gap-4 bg-white flex flex-col justify-center items-center mt-10 border-[1.5px] border-black">
           <img alt="" src={Jaunt} width="120" class="rounded-full -mt-16  shadow-smdrop-shadow- p-1 bg-white" />
           <h1 class="text-2xl font-bold">Jaunt</h1>
           <div class="text-sm min-h-[100px] flex items-center justify-center">
@@ -37,6 +37,9 @@ export default function ProjectPage() {
               goals.
             </h2>
           </div>
+          <a  target="_blank" rel="noreferrer" href="http://ec2-34-204-82-92.compute-1.amazonaws.com" class="transition-all duration-120 hover:scale-105">
+            <button class="bg-[#08386b] pt-1 pb-1 pl-4 pr-4 text-white rounded-lg  ">View Project!</button>
+          </a>
           <h1 class="text-xl font-bold">Tools</h1>
           <div class="flex flex-row gap-1 flex-wrap pr-2 pl-2 align-middle items-center justify-center">
             <Tippy content="ReactJS">
@@ -81,7 +84,7 @@ export default function ProjectPage() {
             </Tippy>
           </div>
         </div>
-      </a>
+      
         <div class="h-250 min-h-[266px] transition-all duration-10 cursor-default  p-3  text-black w-72 shadow-md shadow-slate-800 drop-shadow-sm  rounded-lg gap-4 bg-white flex flex-col justify-center items-center mt-10 border-[1.5px] border-black">
           <img alt="" src={Flex} width="120" class="rounded-full -mt-16  shadow-smdrop-shadow- p-1 bg-white" />
           <h1 class="text-2xl font-bold">Flex Bot</h1>
@@ -91,6 +94,9 @@ export default function ProjectPage() {
               track progress using Slack and Notion Database.
             </h2>
           </div>
+          <a  target="_blank" rel="noreferrer" href="" class="transition-all duration-120 hover:scale-105">
+            <button class="bg-[#08386b] pt-1 pb-1 pl-4 pr-4 text-white rounded-lg  ">View Project!</button>
+          </a>
           <h1 class="text-xl font-bold">Tools</h1>
           <div class="flex flex-row gap-1 flex-wrap pr-2 pl-2 align-middle items-center justify-center">
             <Tippy content="ExpressJS">
@@ -139,6 +145,9 @@ export default function ProjectPage() {
               help from the Instructor Team.
             </h2>
           </div>
+          <a  target="_blank" rel="noreferrer" href="" class="transition-all duration-120 hover:scale-105">
+            <button class="bg-[#08386b] pt-1 pb-1 pl-4 pr-4 text-white rounded-lg  ">View Project!</button>
+          </a>
           <h1 class="text-xl font-bold">Tools</h1>
           <div class="flex flex-row gap-1 flex-wrap pr-2 pl-2 align-middle items-center justify-center">
           <Tippy content="ExpressJS">
@@ -188,6 +197,9 @@ export default function ProjectPage() {
               saving time and effort.
             </h2>
           </div>
+          <a  target="_blank" rel="noreferrer" href="" class="transition-all duration-120 hover:scale-105">
+            <button class="bg-[#08386b] pt-1 pb-1 pl-4 pr-4 text-white rounded-lg  ">View Project!</button>
+          </a>
           <h1 class="text-xl font-bold">Tools</h1>
           <div class="flex flex-row gap-1 flex-wrap pr-2 pl-2 align-middle items-center justify-center">
           <Tippy content="ExpressJS">

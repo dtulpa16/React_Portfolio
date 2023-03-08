@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import DIcon from "../assets/d-icon.png";
 import { useNavigate } from "react-router-dom";
-import GifModal from "./GifModal";
+import ContactModal from "./ContactModal";
 
 export default function Navbar() {
   const [show, setShow] = useState(false);
@@ -42,7 +42,7 @@ export default function Navbar() {
           </li>
         </div>
       </ul>
-      <GifModal show={show} handleClose={handleClose} submitted={submitted} setSubmitted={setSubmitted}/>
+      <ContactModal show={show} handleClose={handleClose} submitted={submitted} setSubmitted={setSubmitted}/>
     </div>
   );
 }

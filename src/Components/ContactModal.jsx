@@ -10,7 +10,7 @@ import {
 } from "@mui/material";
 
 import emailjs from "@emailjs/browser";
-function GifModal({ show, handleClose, submitted, setSubmitted }) {
+function ContactModal({ show, handleClose, submitted, setSubmitted }) {
   const form = useRef();
   const [userContact, setUserContact] = useState({
     to_name: "Dan",
@@ -108,4 +108,4 @@ function GifModal({ show, handleClose, submitted, setSubmitted }) {
   );
 }
 
-export default GifModal;
+export default ContactModal;
