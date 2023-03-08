@@ -108,7 +108,7 @@ export default function ProjectPage() {
               track progress using Slack and Notion Database.
             </h2>
           </div>
-          <a  target="_blank" rel="noreferrer" href="" class="transition-all duration-120 hover:scale-105">
+          <a class="transition-all duration-120 hover:scale-105">
             <button class="bg-[#08386b] pt-1 pb-1 pl-4 pr-4 text-white rounded-lg  ">View Project!</button>
           </a>
           <h1 class="text-xl font-bold">Tools</h1>
@@ -159,7 +159,7 @@ export default function ProjectPage() {
               help from the Instructor Team.
             </h2>
           </div>
-          <a  target="_blank" rel="noreferrer" href="" class="transition-all duration-120 hover:scale-105">
+          <a class="transition-all duration-120 hover:scale-105">
             <button class="bg-[#08386b] pt-1 pb-1 pl-4 pr-4 text-white rounded-lg  ">View Project!</button>
           </a>
           <h1 class="text-xl font-bold">Tools</h1>
