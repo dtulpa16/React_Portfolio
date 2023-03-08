@@ -18,7 +18,8 @@ import OpenAiIcon from "../assets/openai.svg";
 import PostmanIcon from "../assets/postman.svg"
 import NgrokIcon from "../assets/Ngrok.jpg"
 import BootstrapIcon from "../assets/bootstrap.svg"
-
+import Tippy from '@tippyjs/react';
+import 'tippy.js/dist/tippy.css';
 export default function ProjectPage() {
   return (
     <div class="w-[97%] m-auto ">
@@ -38,21 +39,31 @@ export default function ProjectPage() {
           </div>
           <h1 class="text-xl font-bold">Tools</h1>
           <div class="flex flex-row gap-1 flex-wrap pr-2 pl-2 align-middle items-center justify-center">
-            <a target="_blank" rel="noopener" href="https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/React_getting_started">
-              <img alt="ReactJS" src={ReactLogo} width="42" height="42" class="border-[1px] rounded-lg p-[3px] border-black  transition-all duration-100 hover:scale-105 cursor-pointer bg-white"/>
-            </a>
-            <a target="_blank" rel="noopener" href="https://mui.com/">
-              <img alt="MaterialUI" src={MuiIcon} width="42" height="42" class="border-[1px] rounded-lg p-[3px] border-black  transition-all duration-100 hover:scale-105 cursor-pointer bg-white"/>
-            </a>
-            <a target="_blank" rel="noopener" href="https://developer.mozilla.org/en-US/docs/Web/CSS">
-              <img alt="CSS 3" src={CSSIcon} width="42" height="42" class="border-[1px] rounded-lg p-[3px] border-black transition-all duration-100 hover:scale-105 cursor-pointer bg-white"/>
-            </a>
-            <a target="_blank" rel="noopener" href="https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django">
-              <img alt="Django Rest Framework" src={DjangoIcon} width="42" height="42" class="border-[1px] rounded-lg p-[3px] border-black transition-all duration-100 hover:scale-105 cursor-pointer bg-white"/>
-            </a>
-            <a target="_blank" rel="noopener" href="https://www.mysql.com/">
-              <img alt="MySQL" src={MySQL} width="42" height="42" class="border-[1px] rounded-lg p-[3px] border-black transition-all duration-100 hover:scale-105 cursor-pointer bg-white"/>
-            </a>
+            <Tippy content="ReactJS">
+              <a target="_blank" rel="noopener" href="https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/React_getting_started">
+                <img alt="ReactJS" src={ReactLogo} width="42" height="42" class="border-[1px] rounded-lg p-[3px] border-black  transition-all duration-100 hover:scale-105 cursor-pointer bg-white"/>
+              </a>
+            </Tippy>
+            <Tippy content="MaterialUI">
+              <a target="_blank" rel="noopener" href="https://mui.com/">
+                <img alt="MaterialUI" src={MuiIcon} width="42" height="42" class="border-[1px] rounded-lg p-[3px] border-black  transition-all duration-100 hover:scale-105 cursor-pointer bg-white"/>
+              </a>
+            </Tippy>
+            <Tippy content="CSS 3">
+              <a target="_blank" rel="noopener" href="https://developer.mozilla.org/en-US/docs/Web/CSS">
+                <img alt="CSS 3" src={CSSIcon} width="42" height="42" class="border-[1px] rounded-lg p-[3px] border-black transition-all duration-100 hover:scale-105 cursor-pointer bg-white"/>
+              </a>
+            </Tippy>
+            <Tippy content="Django">
+              <a target="_blank" rel="noopener" href="https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django">
+                <img alt="Django Rest Framework" src={DjangoIcon} width="42" height="42" class="border-[1px] rounded-lg p-[3px] border-black transition-all duration-100 hover:scale-105 cursor-pointer bg-white"/>
+              </a>
+            </Tippy>
+            <Tippy content="MySQL">
+              <a target="_blank" rel="noopener" href="https://www.mysql.com/">
+                <img alt="MySQL" src={MySQL} width="42" height="42" class="border-[1px] rounded-lg p-[3px] border-black transition-all duration-100 hover:scale-105 cursor-pointer bg-white"/>
+              </a>
+            </Tippy>
             <a target="_blank" rel="noopener" href="https://github.com/SeleniumHQ/selenium">
               <img alt="Selenium Web Scraper" src={SeleniumIcon} width="42" height="42" class="border-[1px] rounded-lg p-[3px] border-black transition-all duration-100 hover:scale-105 cursor-pointer bg-white"/>
             </a>

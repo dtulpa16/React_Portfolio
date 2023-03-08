@@ -4,7 +4,6 @@ import AboutPage from "./pages/AboutPage";
 import HomePage from "./pages/HomePage";
 import ProjectPage from "./pages/ProjectPage";
 
-
 function App() {
   return (
     <div>
