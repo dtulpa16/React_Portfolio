@@ -20,7 +20,21 @@ import NgrokIcon from "../assets/Ngrok.jpg"
 import BootstrapIcon from "../assets/bootstrap.svg"
 import Tippy from '@tippyjs/react';
 import 'tippy.js/dist/tippy.css';
+import { useState } from "react";
+import TaskManagerVid from "../assets/Task Manager.mp4"
+import GifModal from "../Components/GifModal";
 export default function ProjectPage() {
+  const [open, setOpen] = useState(false);
+  const [videoUrl,setVideoUrl] = useState()
+
+  const handleOpen = (video) => {
+    setVideoUrl(video)
+    setOpen(true);
+  };
+
+  const handleClose = () => {
+    setOpen(false);
+  };
   return (
     <div class="w-[97%] m-auto ">
     <title>Projects</title>
@@ -197,9 +211,9 @@ export default function ProjectPage() {
               saving time and effort.
             </h2>
           </div>
-          <a  target="_blank" rel="noreferrer" href="" class="transition-all duration-120 hover:scale-105">
-            <button class="bg-[#08386b] pt-1 pb-1 pl-4 pr-4 text-white rounded-lg  ">View Project!</button>
-          </a>
+        
+            <button onClick={()=>handleOpen(TaskManagerVid)} class="bg-[#08386b] pt-1 pb-1 pl-4 pr-4 text-white rounded-lg transition-all duration-120 hover:scale-105">View Project!</button>
+         
           <h1 class="text-xl font-bold">Tools</h1>
           <div class="flex flex-row gap-1 flex-wrap pr-2 pl-2 align-middle items-center justify-center">
           <Tippy content="ExpressJS">
@@ -235,6 +249,7 @@ export default function ProjectPage() {
           </div>
         </div>
       </div>
+      <GifModal videoUrl={videoUrl} open={open} handleClose={handleClose}/>
     </div>
   );
 }
