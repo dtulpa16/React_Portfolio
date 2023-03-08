@@ -26,7 +26,7 @@ function GifModal({ show, handleClose, submitted, setSubmitted }) {
     debugger;
     console.log(userContact);
     const templateId = "template_ysb17ag";
-    await emailjs
+    emailjs
       .sendForm(
         "default_service",
         templateId,
