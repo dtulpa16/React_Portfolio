@@ -28,19 +28,6 @@ export default function GifModal({ videoUrl, open, handleClose }) {
     const videoRef = useRef(null);
   const [isFullscreen, setIsFullscreen] = useState(false);
 
-  const handleFullscreenToggle = () => {
-    const videoElement = videoRef.current;
-
-    if (videoElement.requestFullscreen) {
-      if (isFullscreen) {
-        document.exitFullscreen();
-      } else {
-        videoElement.requestFullscreen();
-      }
-      setIsFullscreen(!isFullscreen);
-    }
-  };
-
   return (
     <div>
       <Modal

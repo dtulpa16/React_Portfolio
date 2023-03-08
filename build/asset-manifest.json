@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.32155814.css",
-    "main.js": "/static/js/main.6fcc32d2.js",
-    "static/media/Task Manager.mp4": "/static/media/Task Manager.7fa13fab65ae14274e20.mp4",
+    "main.js": "/static/js/main.e65ebeff.js",
+    "static/media/Task Manager.mp4": "/static/media/Task Manager.bd0569367b8047444cdb.mp4",
     "static/media/Background-img.png": "/static/media/Background-img.38cedd1a699eb9685dc0.png",
     "static/media/about-me-pic.jpg": "/static/media/about-me-pic.782851543c1c32be1854.jpg",
     "static/media/html.jpg": "/static/media/html.365f9a4c7facff289521.jpg",
@@ -29,10 +29,10 @@
     "index.html": "/index.html",
     "static/media/css3.svg": "/static/media/css3.f8d3a337ad05caefa000418981d99dcb.svg",
     "main.32155814.css.map": "/static/css/main.32155814.css.map",
-    "main.6fcc32d2.js.map": "/static/js/main.6fcc32d2.js.map"
+    "main.e65ebeff.js.map": "/static/js/main.e65ebeff.js.map"
   },
   "entrypoints": [
     "static/css/main.32155814.css",
-    "static/js/main.6fcc32d2.js"
+    "static/js/main.e65ebeff.js"
   ]
 }
