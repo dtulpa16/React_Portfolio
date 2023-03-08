@@ -26,7 +26,7 @@ const ModalBox = styled(Box)({
   });
 export default function GifModal({ videoUrl, open, handleClose }) {
     const videoRef = useRef(null);
-  const [isFullscreen, setIsFullscreen] = useState(false);
+
 
   return (
     <div>
