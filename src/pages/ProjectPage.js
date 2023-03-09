@@ -15,20 +15,20 @@ import NotionIcon from "../assets/notion.svg";
 import MongoIcon from "../assets/mongodb.svg";
 import AWSIcon from "../assets/aws.svg";
 import OpenAiIcon from "../assets/openai.svg";
-import PostmanIcon from "../assets/postman.svg"
-import NgrokIcon from "../assets/Ngrok.jpg"
-import BootstrapIcon from "../assets/bootstrap.svg"
-import Tippy from '@tippyjs/react';
-import 'tippy.js/dist/tippy.css';
+import PostmanIcon from "../assets/postman.svg";
+import NgrokIcon from "../assets/Ngrok.jpg";
+import BootstrapIcon from "../assets/bootstrap.svg";
+import Tippy from "@tippyjs/react";
+import "tippy.js/dist/tippy.css";
 import { useState } from "react";
-import TaskManagerVid from "../assets/Task Manager.mp4"
+import TaskManagerVid from "../assets/Task Manager.mp4";
 import GifModal from "../Components/GifModal";
 export default function ProjectPage() {
   const [open, setOpen] = useState(false);
-  const [videoUrl,setVideoUrl] = useState()
+  const [videoUrl, setVideoUrl] = useState();
 
   const handleOpen = (video) => {
-    setVideoUrl(video)
+    setVideoUrl(video);
     setOpen(true);
   };
 
@@ -37,121 +37,156 @@ export default function ProjectPage() {
   };
   return (
     <div class="w-[97%] m-auto ">
-    <title>Projects</title>
+      <title>Projects</title>
       <h1 class="text-center mt-4 text-4xl font-bold">Projects</h1>
       <div class="flex flex-wrap justify-center text-center gap-x-6 items-center gap-y-10 mt-14">
-      
         <div class=" h-250 min-h-[266px] transition-all duration-10 p-3 text-black w-72 shadow-md shadow-slate-600 drop-shadow-sm  rounded-lg gap-4 bg-white flex flex-col justify-center items-center mt-10   border-black">
-          <img alt="" src={Jaunt} width="120" class="rounded-full -mt-16  shadow-smdrop-shadow- p-1 bg-white shadow-gray-300 drop-shadow-md" />
+          <img
+            alt=""
+            src={Jaunt}
+            width="120"
+            class="rounded-full -mt-16  shadow-smdrop-shadow- p-1 bg-white shadow-gray-300 drop-shadow-md"
+          />
           <h1 class="text-2xl font-bold">Jaunt</h1>
           <div class="text-sm min-h-[100px] flex items-center justify-center">
             <h2>
               Fitness application for clients and trainers that generates custom
-              workout and diet plans based on physical characteristics and fitness
-              goals.
+              workout and diet plans based on physical characteristics and
+              fitness goals.
             </h2>
           </div>
-          <a  target="_blank" rel="noreferrer" href="http://ec2-34-204-82-92.compute-1.amazonaws.com" class="transition-all duration-120 hover:scale-105">
-            <button class="bg-[#08386b] pt-1 pb-1 pl-4 pr-4 text-white rounded-lg  ">View Project!</button>
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="http://ec2-34-204-82-92.compute-1.amazonaws.com"
+            class="transition-all duration-120 hover:scale-105"
+          >
+            <button class="bg-[#08386b] pt-1 pb-1 pl-4 pr-4 text-white rounded-lg  ">
+              View Project!
+            </button>
           </a>
           <h1 class="text-xl font-bold">Tools</h1>
           <div class="flex flex-row gap-1 flex-wrap pr-2 pl-2 align-middle items-center justify-center">
             <Tippy content="ReactJS">
-              <a target="_blank" rel="noreferrer" href="https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/React_getting_started">
-                <img alt="ReactJS" src={ReactLogo} width="42" height="42" class="border-[1px] rounded-lg p-[3px] border-black  transition-all duration-100 hover:scale-105 cursor-pointer bg-white"/>
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/React_getting_started"
+              >
+                <img
+                  alt="ReactJS"
+                  src={ReactLogo}
+                  width="42"
+                  height="42"
+                  class="border-[1px] rounded-lg p-[3px] border-black  transition-all duration-100 hover:scale-105 cursor-pointer bg-white"
+                />
               </a>
             </Tippy>
             <Tippy content="MaterialUI">
               <a target="_blank" rel="noreferrer" href="https://mui.com/">
-                <img alt="MaterialUI" src={MuiIcon} width="42" height="42" class="border-[1px] rounded-lg p-[3px] border-black  transition-all duration-100 hover:scale-105 cursor-pointer bg-white"/>
+                <img
+                  alt="MaterialUI"
+                  src={MuiIcon}
+                  width="42"
+                  height="42"
+                  class="border-[1px] rounded-lg p-[3px] border-black  transition-all duration-100 hover:scale-105 cursor-pointer bg-white"
+                />
               </a>
             </Tippy>
             <Tippy content="CSS 3">
-              <a target="_blank" rel="noreferrer" href="https://developer.mozilla.org/en-US/docs/Web/CSS">
-                <img alt="CSS 3" src={CSSIcon} width="42" height="42" class="border-[1px] rounded-lg p-[3px] border-black transition-all duration-100 hover:scale-105 cursor-pointer bg-white"/>
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://developer.mozilla.org/en-US/docs/Web/CSS"
+              >
+                <img
+                  alt="CSS 3"
+                  src={CSSIcon}
+                  width="42"
+                  height="42"
+                  class="border-[1px] rounded-lg p-[3px] border-black transition-all duration-100 hover:scale-105 cursor-pointer bg-white"
+                />
               </a>
             </Tippy>
             <Tippy content="Django">
-              <a target="_blank" rel="noreferrer" href="https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django">
-                <img alt="Django Rest Framework" src={DjangoIcon} width="42" height="42" class="border-[1px] rounded-lg p-[3px] border-black transition-all duration-100 hover:scale-105 cursor-pointer bg-white"/>
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django"
+              >
+                <img
+                  alt="Django Rest Framework"
+                  src={DjangoIcon}
+                  width="42"
+                  height="42"
+                  class="border-[1px] rounded-lg p-[3px] border-black transition-all duration-100 hover:scale-105 cursor-pointer bg-white"
+                />
               </a>
             </Tippy>
             <Tippy content="MySQL">
               <a target="_blank" rel="noreferrer" href="https://www.mysql.com/">
-                <img alt="MySQL" src={MySQL} width="42" height="42" class="border-[1px] rounded-lg p-[3px] border-black transition-all duration-100 hover:scale-105 cursor-pointer bg-white"/>
+                <img
+                  alt="MySQL"
+                  src={MySQL}
+                  width="42"
+                  height="42"
+                  class="border-[1px] rounded-lg p-[3px] border-black transition-all duration-100 hover:scale-105 cursor-pointer bg-white"
+                />
               </a>
             </Tippy>
             <Tippy content="Selenium">
-              <a target="_blank" rel="noreferrer" href="https://github.com/SeleniumHQ/selenium">
-                <img alt="Selenium Web Scraper" src={SeleniumIcon} width="42" height="42" class="border-[1px] rounded-lg p-[3px] border-black transition-all duration-100 hover:scale-105 cursor-pointer bg-white"/>
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://github.com/SeleniumHQ/selenium"
+              >
+                <img
+                  alt="Selenium Web Scraper"
+                  src={SeleniumIcon}
+                  width="42"
+                  height="42"
+                  class="border-[1px] rounded-lg p-[3px] border-black transition-all duration-100 hover:scale-105 cursor-pointer bg-white"
+                />
               </a>
             </Tippy>
             <Tippy content="AWS">
-              <a target="_blank" rel="noreferrer" href="https://aws.amazon.com/">
-                <img alt="Amazon Web Services" src={AWSIcon} width="42" class="h-[42px] object-contain border-[1px] rounded-lg p-[3px] border-black transition-all duration-100 hover:scale-105 cursor-pointer bg-white"/>
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://aws.amazon.com/"
+              >
+                <img
+                  alt="Amazon Web Services"
+                  src={AWSIcon}
+                  width="42"
+                  class="h-[42px] object-contain border-[1px] rounded-lg p-[3px] border-black transition-all duration-100 hover:scale-105 cursor-pointer bg-white"
+                />
               </a>
             </Tippy>
             <Tippy content="Bootstrap">
-              <a target="_blank" rel="noreferrer" href="https://getbootstrap.com/">
-                <img alt="Bootstrap" src={BootstrapIcon} width="42" height="42" class="border-[1px] rounded-lg p-[3px] border-black transition-all duration-100 hover:scale-105 cursor-pointer bg-white"/>
-              </a>
-            </Tippy>
-          </div>
-        </div>
-      
-        <div class="h-250 min-h-[266px] transition-all duration-10 cursor-default  p-3  text-black w-72 shadow-md shadow-slate-600 drop-shadow-sm rounded-lg gap-4 bg-white flex flex-col justify-center items-center mt-10   border-black">
-          <img alt="" src={Flex} width="120" class="rounded-full -mt-16  shadow-smdrop-shadow- p-1 bg-white shadow-slate-300 drop-shadow-md" />
-          <h1 class="text-2xl font-bold">Flex Bot</h1>
-          <div class="text-sm min-h-[100px] flex items-center justify-center">
-            <h2>
-              An efficient tool for instructors to manage student meetings and
-              track progress using Slack and Notion Database.
-            </h2>
-          </div>
-          <a href="https://github.com/dtulpa16" class="transition-all duration-120 hover:scale-105">
-            <button class="bg-[#08386b] pt-1 pb-1 pl-4 pr-4 text-white rounded-lg  ">View Project!</button>
-          </a>
-          <h1 class="text-xl font-bold">Tools</h1>
-          <div class="flex flex-row gap-1 flex-wrap pr-2 pl-2 align-middle items-center justify-center">
-            <Tippy content="ExpressJS">
-              <a target="_blank" rel="noreferrer" href="https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs">
-                <img alt="ExressJS" src={ExpressIcon} width="42" height="42" class="border-[1px] rounded-lg p-[3px] border-black  transition-all duration-100 hover:scale-105 cursor-pointer bg-white"/>
-              </a>
-            </Tippy>
-            <Tippy content="Slack API">
-              <a target="_blank" rel="noreferrer" href="https://api.slack.com/apis">
-                <img alt="Slack API" src={SlackIcon} width="42" height="42" class="border-[1px] rounded-lg p-[3px] border-black  transition-all duration-100 hover:scale-105 cursor-pointer bg-white"/>
-              </a>
-            </Tippy>
-            <Tippy content="Notion API">
-              <a target="_blank" rel="noreferrer" href="https://developers.notion.com/">
-                <img alt="Notion API" src={NotionIcon} width="42" height="42" class=" border-[1px] rounded-lg p-[3px] border-black transition-all duration-100 hover:scale-105 cursor-pointer bg-white"/>
-              </a>
-            </Tippy>
-            <Tippy content="OpenAI API">
-              <a target="_blank" rel="noreferrer" href="https://platform.openai.com/">
-                <img alt="OpenAI API" src={OpenAiIcon} width="42" height="42" class="h-[42px] border-[1px] rounded-lg p-[3px] border-black transition-all duration-100 hover:scale-105 cursor-pointer bg-white"/>
-              </a>
-            </Tippy>
-            <Tippy content="MongoDB">
-              <a target="_blank" rel="noreferrer" href="https://www.mongodb.com/docs/atlas/">
-                <img alt="MongoDB" src={MongoIcon} width="42" height="42" class="border-[1px] rounded-lg p-[3px] border-black transition-all duration-100 hover:scale-105 cursor-pointer bg-white"/>
-              </a>
-            </Tippy>
-            <Tippy content="Ngrok">
-              <a target="_blank" rel="noreferrer" href="https://ngrok.com/docs">
-                <img alt="NGrok HTTP Tunneling" src={NgrokIcon} width="42" height="42" class="border-[1px] rounded-lg p-[3px] border-black transition-all duration-100 hover:scale-105 cursor-pointer bg-white"/>
-              </a>
-            </Tippy>
-            <Tippy content="Postman">
-              <a target="_blank" rel="noreferrer" href="https://www.postman.com/">
-                <img alt="Postman" src={PostmanIcon} width="42" height="42" class="border-[1px] rounded-lg p-[3px] border-black transition-all duration-100 hover:scale-105 cursor-pointer bg-white"/>
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://getbootstrap.com/"
+              >
+                <img
+                  alt="Bootstrap"
+                  src={BootstrapIcon}
+                  width="42"
+                  height="42"
+                  class="border-[1px] rounded-lg p-[3px] border-black transition-all duration-100 hover:scale-105 cursor-pointer bg-white"
+                />
               </a>
             </Tippy>
           </div>
         </div>
         <div class="h-250 min-h-[266px] transition-all duration-10 cursor-default  p-3  text-black w-72 shadow-md shadow-slate-600 drop-shadow-sm rounded-lg gap-4 bg-white flex flex-col justify-center items-center mt-10   border-black">
-          <img alt="" src={QQ} width="120" class="rounded-full -mt-16  shadow-smdrop-shadow- p-1 bg-white shadow-slate-300 drop-shadow-md" />
+          <img
+            alt=""
+            src={QQ}
+            width="120"
+            class="rounded-full -mt-16  shadow-smdrop-shadow- p-1 bg-white shadow-slate-300 drop-shadow-md"
+          />
           <h1 class="text-2xl font-bold">Question Queue Bot</h1>
           <div class="text-sm min-h-[100px] flex items-center justify-center">
             <h2>
@@ -159,97 +194,362 @@ export default function ProjectPage() {
               help from the Instructor Team.
             </h2>
           </div>
-          <a href="https://github.com/dtulpa16" class="transition-all duration-120 hover:scale-105">
-            <button class="bg-[#08386b] pt-1 pb-1 pl-4 pr-4 text-white rounded-lg  ">View Project!</button>
+          <a
+            href="https://github.com/dtulpa16/Question_Queue_Slack_Bot/blob/main/README.md"
+            class="transition-all duration-120 hover:scale-105"
+          >
+            <button class="bg-[#08386b] pt-1 pb-1 pl-4 pr-4 text-white rounded-lg  ">
+              View Project!
+            </button>
           </a>
           <h1 class="text-xl font-bold">Tools</h1>
           <div class="flex flex-row gap-1 flex-wrap pr-2 pl-2 align-middle items-center justify-center">
-          <Tippy content="ExpressJS">
-              <a target="_blank" rel="noreferrer" href="https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs">
-                <img alt="ExressJS" src={ExpressIcon} width="42" height="42" class="border-[1px] rounded-lg p-[3px] border-black  transition-all duration-100 hover:scale-105 cursor-pointer bg-white"/>
+            <Tippy content="ExpressJS">
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs"
+              >
+                <img
+                  alt="ExressJS"
+                  src={ExpressIcon}
+                  width="42"
+                  height="42"
+                  class="border-[1px] rounded-lg p-[3px] border-black  transition-all duration-100 hover:scale-105 cursor-pointer bg-white"
+                />
               </a>
             </Tippy>
             <Tippy content="Slack API">
-              <a target="_blank" rel="noreferrer" href="https://api.slack.com/apis">
-                <img alt="Slack API" src={SlackIcon} width="42" height="42" class="border-[1px] rounded-lg p-[3px] border-black  transition-all duration-100 hover:scale-105 cursor-pointer bg-white"/>
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://api.slack.com/apis"
+              >
+                <img
+                  alt="Slack API"
+                  src={SlackIcon}
+                  width="42"
+                  height="42"
+                  class="border-[1px] rounded-lg p-[3px] border-black  transition-all duration-100 hover:scale-105 cursor-pointer bg-white"
+                />
               </a>
             </Tippy>
             <Tippy content="Notion API">
-              <a target="_blank" rel="noreferrer" href="https://developers.notion.com/">
-                <img alt="Notion API" src={NotionIcon} width="42" height="42" class=" border-[1px] rounded-lg p-[3px] border-black transition-all duration-100 hover:scale-105 cursor-pointer bg-white"/>
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://developers.notion.com/"
+              >
+                <img
+                  alt="Notion API"
+                  src={NotionIcon}
+                  width="42"
+                  height="42"
+                  class=" border-[1px] rounded-lg p-[3px] border-black transition-all duration-100 hover:scale-105 cursor-pointer bg-white"
+                />
               </a>
             </Tippy>
             <Tippy content="OpenAI API">
-              <a target="_blank" rel="noreferrer" href="https://platform.openai.com/">
-                <img alt="OpenAI API" src={OpenAiIcon} width="42" height="42" class="h-[42px] border-[1px] rounded-lg p-[3px] border-black transition-all duration-100 hover:scale-105 cursor-pointer bg-white"/>
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://platform.openai.com/"
+              >
+                <img
+                  alt="OpenAI API"
+                  src={OpenAiIcon}
+                  width="42"
+                  height="42"
+                  class="h-[42px] border-[1px] rounded-lg p-[3px] border-black transition-all duration-100 hover:scale-105 cursor-pointer bg-white"
+                />
               </a>
             </Tippy>
             <Tippy content="MongoDB">
-              <a target="_blank" rel="noreferrer" href="https://www.mongodb.com/docs/atlas/">
-                <img alt="MongoDB" src={MongoIcon} width="42" height="42" class="border-[1px] rounded-lg p-[3px] border-black transition-all duration-100 hover:scale-105 cursor-pointer bg-white"/>
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://www.mongodb.com/docs/atlas/"
+              >
+                <img
+                  alt="MongoDB"
+                  src={MongoIcon}
+                  width="42"
+                  height="42"
+                  class="border-[1px] rounded-lg p-[3px] border-black transition-all duration-100 hover:scale-105 cursor-pointer bg-white"
+                />
               </a>
             </Tippy>
             <Tippy content="Ngrok">
               <a target="_blank" rel="noreferrer" href="https://ngrok.com/docs">
-                <img alt="NGrok HTTP Tunneling" src={NgrokIcon} width="42" height="42" class="border-[1px] rounded-lg p-[3px] border-black transition-all duration-100 hover:scale-105 cursor-pointer bg-white"/>
+                <img
+                  alt="NGrok HTTP Tunneling"
+                  src={NgrokIcon}
+                  width="42"
+                  height="42"
+                  class="border-[1px] rounded-lg p-[3px] border-black transition-all duration-100 hover:scale-105 cursor-pointer bg-white"
+                />
               </a>
             </Tippy>
             <Tippy content="Postman">
-              <a target="_blank" rel="noreferrer" href="https://www.postman.com/">
-                <img alt="Postman" src={PostmanIcon} width="42" height="42" class="border-[1px] rounded-lg p-[3px] border-black transition-all duration-100 hover:scale-105 cursor-pointer bg-white"/>
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://www.postman.com/"
+              >
+                <img
+                  alt="Postman"
+                  src={PostmanIcon}
+                  width="42"
+                  height="42"
+                  class="border-[1px] rounded-lg p-[3px] border-black transition-all duration-100 hover:scale-105 cursor-pointer bg-white"
+                />
               </a>
             </Tippy>
           </div>
         </div>
-        <div class="h-250 min-h-[266px] transition-all duration-10 cursor-default  p-3   text-black w-72 shadow-slate-600 drop-shadow-sm rounded-lg gap-4 bg-white flex flex-col justify-center items-center mt-10   border-black">
-          <img alt="" src={Task} width="120" class="rounded-full -mt-16  shadow-smdrop-shadow- p-1 bg-white shadow-slate-300 drop-shadow-md" />
-          <h1 class="text-2xl font-bold">Task Manager</h1>
+        <div class="h-250 min-h-[266px] transition-all duration-10 cursor-default  p-3  text-black w-72 shadow-md shadow-slate-600 drop-shadow-sm rounded-lg gap-4 bg-white flex flex-col justify-center items-center mt-10   border-black">
+          <img
+            alt=""
+            src={Flex}
+            width="120"
+            class="rounded-full -mt-16  shadow-smdrop-shadow- p-1 bg-white shadow-slate-300 drop-shadow-md"
+          />
+          <h1 class="text-2xl font-bold">Flex Bot</h1>
           <div class="text-sm min-h-[100px] flex items-center justify-center">
             <h2>
-              A Slack bot that streamlines task management. The bot
-              integrates with Notion API to create and update tasks automatically,
-              saving time and effort.
+              An efficient tool for instructors to manage student meetings and
+              track progress using Slack and Notion Database.
             </h2>
           </div>
-        
-            <button onClick={()=>handleOpen(TaskManagerVid)} class="bg-[#08386b] pt-1 pb-1 pl-4 pr-4 text-white rounded-lg transition-all duration-120 hover:scale-105">View Project!</button>
-         
+          <a
+            href="https://github.com/dtulpa16"
+            class="transition-all duration-120 hover:scale-105"
+          >
+            <button class="bg-[#08386b] pt-1 pb-1 pl-4 pr-4 text-white rounded-lg  ">
+              View Project!
+            </button>
+          </a>
           <h1 class="text-xl font-bold">Tools</h1>
-          <div class="flex flex-row gap-1 flex-wrap pr-2 pl-2 align-middle items-center justify-center ">
-          <Tippy content="ExpressJS">
-              <a target="_blank" rel="noreferrer" href="https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs">
-                <img alt="ExressJS" src={ExpressIcon} width="42" height="42" class="border-[1px] rounded-lg p-[3px] border-black  transition-all duration-100 hover:scale-105 cursor-pointer bg-white"/>
+          <div class="flex flex-row gap-1 flex-wrap pr-2 pl-2 align-middle items-center justify-center">
+            <Tippy content="ExpressJS">
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs"
+              >
+                <img
+                  alt="ExressJS"
+                  src={ExpressIcon}
+                  width="42"
+                  height="42"
+                  class="border-[1px] rounded-lg p-[3px] border-black  transition-all duration-100 hover:scale-105 cursor-pointer bg-white"
+                />
               </a>
             </Tippy>
             <Tippy content="Slack API">
-              <a target="_blank" rel="noreferrer" href="https://api.slack.com/apis">
-                <img alt="Slack API" src={SlackIcon} width="42" height="42" class="border-[1px] rounded-lg p-[3px] border-black  transition-all duration-100 hover:scale-105 cursor-pointer bg-white"/>
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://api.slack.com/apis"
+              >
+                <img
+                  alt="Slack API"
+                  src={SlackIcon}
+                  width="42"
+                  height="42"
+                  class="border-[1px] rounded-lg p-[3px] border-black  transition-all duration-100 hover:scale-105 cursor-pointer bg-white"
+                />
               </a>
             </Tippy>
             <Tippy content="Notion API">
-              <a target="_blank" rel="noreferrer" href="https://developers.notion.com/">
-                <img alt="Notion API" src={NotionIcon} width="42" height="42" class=" border-[1px] rounded-lg p-[3px] border-black transition-all duration-100 hover:scale-105 cursor-pointer bg-white"/>
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://developers.notion.com/"
+              >
+                <img
+                  alt="Notion API"
+                  src={NotionIcon}
+                  width="42"
+                  height="42"
+                  class=" border-[1px] rounded-lg p-[3px] border-black transition-all duration-100 hover:scale-105 cursor-pointer bg-white"
+                />
               </a>
             </Tippy>
             <Tippy content="OpenAI API">
-              <a target="_blank" rel="noreferrer" href="https://platform.openai.com/">
-                <img alt="OpenAI API" src={OpenAiIcon} width="42" height="42" class="h-[42px] border-[1px] rounded-lg p-[3px] border-black transition-all duration-100 hover:scale-105 cursor-pointer bg-white"/>
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://platform.openai.com/"
+              >
+                <img
+                  alt="OpenAI API"
+                  src={OpenAiIcon}
+                  width="42"
+                  height="42"
+                  class="h-[42px] border-[1px] rounded-lg p-[3px] border-black transition-all duration-100 hover:scale-105 cursor-pointer bg-white"
+                />
+              </a>
+            </Tippy>
+            <Tippy content="MongoDB">
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://www.mongodb.com/docs/atlas/"
+              >
+                <img
+                  alt="MongoDB"
+                  src={MongoIcon}
+                  width="42"
+                  height="42"
+                  class="border-[1px] rounded-lg p-[3px] border-black transition-all duration-100 hover:scale-105 cursor-pointer bg-white"
+                />
               </a>
             </Tippy>
             <Tippy content="Ngrok">
               <a target="_blank" rel="noreferrer" href="https://ngrok.com/docs">
-                <img alt="NGrok HTTP Tunneling" src={NgrokIcon} width="42" height="42" class="border-[1px] rounded-lg p-[3px] border-black transition-all duration-100 hover:scale-105 cursor-pointer bg-white"/>
+                <img
+                  alt="NGrok HTTP Tunneling"
+                  src={NgrokIcon}
+                  width="42"
+                  height="42"
+                  class="border-[1px] rounded-lg p-[3px] border-black transition-all duration-100 hover:scale-105 cursor-pointer bg-white"
+                />
               </a>
             </Tippy>
             <Tippy content="Postman">
-              <a target="_blank" rel="noreferrer" href="https://www.postman.com/">
-                <img alt="Postman" src={PostmanIcon} width="42" height="42" class="border-[1px] rounded-lg p-[3px] border-black transition-all duration-100 hover:scale-105 cursor-pointer bg-white"/>
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://www.postman.com/"
+              >
+                <img
+                  alt="Postman"
+                  src={PostmanIcon}
+                  width="42"
+                  height="42"
+                  class="border-[1px] rounded-lg p-[3px] border-black transition-all duration-100 hover:scale-105 cursor-pointer bg-white"
+                />
+              </a>
+            </Tippy>
+          </div>
+        </div>
+
+        <div class="h-250 min-h-[266px] transition-all duration-10 cursor-default  p-3   text-black w-72 shadow-slate-600 drop-shadow-sm rounded-lg gap-4 bg-white flex flex-col justify-center items-center mt-10   border-black">
+          <img
+            alt=""
+            src={Task}
+            width="120"
+            class="rounded-full -mt-16  shadow-smdrop-shadow- p-1 bg-white shadow-slate-300 drop-shadow-md"
+          />
+          <h1 class="text-2xl font-bold">Task Manager</h1>
+          <div class="text-sm min-h-[100px] flex items-center justify-center">
+            <h2>
+              A Slack bot that streamlines task management. The bot integrates
+              with Notion API to create and update tasks automatically, saving
+              time and effort.
+            </h2>
+          </div>
+
+          <button
+            onClick={() => handleOpen(TaskManagerVid)}
+            class="bg-[#08386b] pt-1 pb-1 pl-4 pr-4 text-white rounded-lg transition-all duration-120 hover:scale-105"
+          >
+            View Project!
+          </button>
+
+          <h1 class="text-xl font-bold">Tools</h1>
+          <div class="flex flex-row gap-1 flex-wrap pr-2 pl-2 align-middle items-center justify-center ">
+            <Tippy content="ExpressJS">
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs"
+              >
+                <img
+                  alt="ExressJS"
+                  src={ExpressIcon}
+                  width="42"
+                  height="42"
+                  class="border-[1px] rounded-lg p-[3px] border-black  transition-all duration-100 hover:scale-105 cursor-pointer bg-white"
+                />
+              </a>
+            </Tippy>
+            <Tippy content="Slack API">
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://api.slack.com/apis"
+              >
+                <img
+                  alt="Slack API"
+                  src={SlackIcon}
+                  width="42"
+                  height="42"
+                  class="border-[1px] rounded-lg p-[3px] border-black  transition-all duration-100 hover:scale-105 cursor-pointer bg-white"
+                />
+              </a>
+            </Tippy>
+            <Tippy content="Notion API">
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://developers.notion.com/"
+              >
+                <img
+                  alt="Notion API"
+                  src={NotionIcon}
+                  width="42"
+                  height="42"
+                  class=" border-[1px] rounded-lg p-[3px] border-black transition-all duration-100 hover:scale-105 cursor-pointer bg-white"
+                />
+              </a>
+            </Tippy>
+            <Tippy content="OpenAI API">
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://platform.openai.com/"
+              >
+                <img
+                  alt="OpenAI API"
+                  src={OpenAiIcon}
+                  width="42"
+                  height="42"
+                  class="h-[42px] border-[1px] rounded-lg p-[3px] border-black transition-all duration-100 hover:scale-105 cursor-pointer bg-white"
+                />
+              </a>
+            </Tippy>
+            <Tippy content="Ngrok">
+              <a target="_blank" rel="noreferrer" href="https://ngrok.com/docs">
+                <img
+                  alt="NGrok HTTP Tunneling"
+                  src={NgrokIcon}
+                  width="42"
+                  height="42"
+                  class="border-[1px] rounded-lg p-[3px] border-black transition-all duration-100 hover:scale-105 cursor-pointer bg-white"
+                />
+              </a>
+            </Tippy>
+            <Tippy content="Postman">
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://www.postman.com/"
+              >
+                <img
+                  alt="Postman"
+                  src={PostmanIcon}
+                  width="42"
+                  height="42"
+                  class="border-[1px] rounded-lg p-[3px] border-black transition-all duration-100 hover:scale-105 cursor-pointer bg-white"
+                />
               </a>
             </Tippy>
           </div>
         </div>
       </div>
-      <GifModal videoUrl={videoUrl} open={open} handleClose={handleClose}/>
+      <GifModal videoUrl={videoUrl} open={open} handleClose={handleClose} />
     </div>
   );
 }
