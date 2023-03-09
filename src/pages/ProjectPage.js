@@ -41,7 +41,7 @@ export default function ProjectPage() {
       <h1 class="text-center mt-4 text-4xl font-bold">Projects</h1>
       <div class="flex flex-wrap justify-center text-center gap-x-6 items-center gap-y-10 mt-14">
       
-        <div class=" h-250 min-h-[266px] transition-all duration-10 p-3 text-black w-72 shadow-md shadow-gray-800 drop-shadow-md  rounded-lg gap-4 bg-white flex flex-col justify-center items-center mt-10   border-black">
+        <div class=" h-250 min-h-[266px] transition-all duration-10 p-3 text-black w-72 shadow-md shadow-slate-600 drop-shadow-sm  rounded-lg gap-4 bg-white flex flex-col justify-center items-center mt-10   border-black">
           <img alt="" src={Jaunt} width="120" class="rounded-full -mt-16  shadow-smdrop-shadow- p-1 bg-white shadow-gray-300 drop-shadow-md" />
           <h1 class="text-2xl font-bold">Jaunt</h1>
           <div class="text-sm min-h-[100px] flex items-center justify-center">
@@ -99,7 +99,7 @@ export default function ProjectPage() {
           </div>
         </div>
       
-        <div class="h-250 min-h-[266px] transition-all duration-10 cursor-default  p-3  text-black w-72 shadow-md shadow-slate-800 drop-shadow-md  rounded-lg gap-4 bg-white flex flex-col justify-center items-center mt-10   border-black">
+        <div class="h-250 min-h-[266px] transition-all duration-10 cursor-default  p-3  text-black w-72 shadow-md shadow-slate-600 drop-shadow-sm rounded-lg gap-4 bg-white flex flex-col justify-center items-center mt-10   border-black">
           <img alt="" src={Flex} width="120" class="rounded-full -mt-16  shadow-smdrop-shadow- p-1 bg-white shadow-slate-300 drop-shadow-md" />
           <h1 class="text-2xl font-bold">Flex Bot</h1>
           <div class="text-sm min-h-[100px] flex items-center justify-center">
@@ -150,7 +150,7 @@ export default function ProjectPage() {
             </Tippy>
           </div>
         </div>
-        <div class="h-250 min-h-[266px] transition-all duration-10 cursor-default  p-3  text-black w-72 shadow-md shadow-slate-800 drop-shadow-md rounded-lg gap-4 bg-white flex flex-col justify-center items-center mt-10   border-black">
+        <div class="h-250 min-h-[266px] transition-all duration-10 cursor-default  p-3  text-black w-72 shadow-md shadow-slate-600 drop-shadow-sm rounded-lg gap-4 bg-white flex flex-col justify-center items-center mt-10   border-black">
           <img alt="" src={QQ} width="120" class="rounded-full -mt-16  shadow-smdrop-shadow- p-1 bg-white shadow-slate-300 drop-shadow-md" />
           <h1 class="text-2xl font-bold">Question Queue Bot</h1>
           <div class="text-sm min-h-[100px] flex items-center justify-center">
@@ -201,7 +201,7 @@ export default function ProjectPage() {
             </Tippy>
           </div>
         </div>
-        <div class="h-250 min-h-[266px] transition-all duration-10 cursor-default  p-3   text-black w-72 shadow-slate-800 drop-shadow-md rounded-lg gap-4 bg-white flex flex-col justify-center items-center mt-10   border-black">
+        <div class="h-250 min-h-[266px] transition-all duration-10 cursor-default  p-3   text-black w-72 shadow-slate-600 drop-shadow-sm rounded-lg gap-4 bg-white flex flex-col justify-center items-center mt-10   border-black">
           <img alt="" src={Task} width="120" class="rounded-full -mt-16  shadow-smdrop-shadow- p-1 bg-white shadow-slate-300 drop-shadow-md" />
           <h1 class="text-2xl font-bold">Task Manager</h1>
           <div class="text-sm min-h-[100px] flex items-center justify-center">
